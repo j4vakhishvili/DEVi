@@ -65,6 +65,12 @@ footer a{
     color: #282828;
     font-weight: bold;
     line-height: 50px;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    text-decoration: underline #282828;
+    transition: 0.3s;
 }
 
 @media only screen and (max-width: 650px) {
