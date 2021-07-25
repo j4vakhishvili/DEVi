@@ -12,6 +12,17 @@
 .partner img{
     height: 50px;
     width: auto;
+    filter: contrast(0.3);
+    transition: 0.3s;
+}
+
+.partner img:hover{
+    filter: contrast(1);
+    transition: 0.3s;
+}
+
+.partner{
+    float: right;
 }
 
 button{
@@ -33,8 +44,55 @@ button:hover{
     transition: 0.5s;
 }
 
-p{
+h1{
     font-family: 'Main', 'Bog-Caps', 'Bog', sans-serif;
     font-size: 30px;
     margin: 0;
+    font-weight: normal;
+}
+
+footer{
+    border-top: 2px solid #4711ef;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}
+
+footer a{
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: #282828;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+    .devi-logo{
+        width: 200px;
+        height: 200px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    button{
+        width: 250px;
+        height: 80px;
+        font-size: 25px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        transition: 0.5s;
+    }
+    footer{
+        border-top: 2px solid #4711ef;
+        position: fixed;
+        bottom: 0;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    h1{
+        display: none;
+    }
 }
