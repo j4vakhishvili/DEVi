@@ -1,7 +1,7 @@
 footer{
     border-top: 2px solid #4711ef;
     width: 100%;
-    margin-top: 850px;
+    float: left;
 }
 
 footer a{
@@ -96,7 +96,6 @@ header{
 
 .abouttext{
     width: 1000px;
-    height: 750px;
     margin-top: 85px;
     float: left;
 }
@@ -179,3 +178,53 @@ header{
     border-radius: 20px;
     margin-top: 25px;
 }
+
+@media only screen and (max-width: 650px) {
+    .devi-text {
+        display: none;
+    }
+
+    .abouttext {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .homescreen {
+        display: none;
+    }
+
+    .gobckicon {
+        width: 75px;
+        height: 75px;
+        border-radius: 25px;
+    }
+
+    .gohomeboy img {
+        height: 40px;
+        padding: 16px 17px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .ceo {
+        width: 100%;
+        float: left;
+    }
+
+    .ceo-title{
+        font-size: 24px;
+    }
+
+    .ceo-card {
+        margin-bottom: 25px;
+    }
+
+
+}
+

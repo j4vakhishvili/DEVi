@@ -396,3 +396,9 @@ template {
 [hidden] {
   display: none;
 }
+
+@media only screen and (max-width: 650px){
+  .container{
+    width: 80%;
+  }
+}
