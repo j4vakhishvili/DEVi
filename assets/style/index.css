@@ -110,4 +110,7 @@ footer a:hover{
     h1{
         display: none;
     }
+    footer{
+        width: 80%;
+    }
 }
