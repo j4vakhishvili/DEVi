@@ -1,8 +1,7 @@
 footer{
     border-top: 2px solid #4711ef;
-    position: fixed;
-    bottom: 0;
-    width: 90%;
+    width: 100%;
+    margin-top: 850px;
 }
 
 footer a{
@@ -62,19 +61,36 @@ header{
 }
 
 .gohomeboy img{
-    height: 35px;
-    background: #ededed;
-    padding: ;
+    height: 30px;
+    padding: 10px 10px;
+}
+
+.gobckicon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #EDEDED;
+    border-radius: 15px;
+}
+
+.homescreen{
+    float: right;
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 35px;
+    color: #4711ef;
+    padding-left: 20px;
+    margin-top: 5px;
 }
 
 .gohomeboy{
     float: right;
+    cursor: pointer;
 }
 
 .abouttext{
-    width: 1015px;
+    width: 1000px;
     height: 750px;
-    margin-top: 65px;
+    margin-top: 85px;
     float: left;
 }
 
@@ -94,7 +110,9 @@ header{
 
 .ceo {
     float: right;
-    margin-top: 65px;
+    margin-top: 85px;
+    width: 680px;
+    height: 365px;
 }
 
 .ceo-image {
@@ -109,49 +127,19 @@ header{
     height: 300px;
     background: #EDEDED;
     border-radius: 25px;
-    margin-left: -85px;
-    display: inline-block;
+    float: left;
+    margin-left: 11px;
 }
 
-.nika {
-    font-size: 20px;
-    font-family: 'Bog', sans-serif;
-    font-weight: bold;
-    padding-top: 240px;
+.ceo-title{
     text-align: center;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
-/* .co-foundercard {
-    width: 215px;
-    height: 300px;
-    background: #EDEDED;
-    border-radius: 25px;
-    margin-left: 170px;
-    margin-top: -322px;
-}
-
-.co-founderimage {
-    width: 215px;
-    height: 220px;
-    background: #C1C1C1;
-    border-radius: 25px;
-}
-
-.temo {
+.ceo-name{
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
     font-size: 20px;
-    font-family: 'Bog', sans-serif;
-    font-weight: bold;
-    padding-top: 240px;
-    text-align: center;
+    margin: 0;
+    padding: 17px 20px;
 }
-
-.lazyboah {
-    width: 215px;
-    height: 300px;
-    background: #EDEDED;
-    border-radius: 25px;
-    margin-left: 350px;
-    margin-top: -322px;
-}
-
- */
