@@ -85,6 +85,13 @@ header{
 .gohomeboy{
     float: right;
     cursor: pointer;
+    transform: 0.3s;
+}
+
+.gohomeboy:hover{
+    padding-bottom: 5px;
+    border-bottom: 5px solid #4727f1;
+    transition: 0.3s;
 }
 
 .abouttext{
@@ -142,4 +149,33 @@ header{
     font-size: 20px;
     margin: 0;
     padding: 17px 20px;
+}
+
+.social-border{
+    float: right;
+    margin-top: 60px;
+    width: 680px;
+    height: 200px;
+}
+
+.social{
+    width: 65%;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-title{
+    font-size: 28px;
+    text-align: center;
+}
+
+.social-icon{
+    width: 88px;
+    height: 88px;
+    background: #EDEDED;
+    margin-right: 19px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 25px;
 }
