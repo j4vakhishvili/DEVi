@@ -84,6 +84,7 @@
     width: 410px;
     margin-top: -20px;
     background: #E7E9EB;
+    transition: 0.3s;
 }
 
 [data-theme="dark"] .search{
