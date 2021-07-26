@@ -1,113 +1,106 @@
-.devi-logo{
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 0;
+    text-decoration: none;
+    border-radius: 60px;
+    background-color: rgb(255 255 255 / 10%);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(25px);
+}
+
+.inside-content{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.devi-logo {
     width: 250px;
     height: 250px;
-    background: white url(../icons/logo.svg);
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    margin-top: 200px;
-    margin-bottom: 180px;
-    transition: 0.2s;
-}
-
-.devi-logo:hover{
-    background: white url(../icons/logo-eye.svg);
+    background: transparent url(../icons/logo.svg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     transition: 0.2s;
 }
 
-.partner img{
-    height: 50px;
-    width: auto;
-    filter: contrast(0.3);
-    transition: 0.3s;
+.devi-logo:hover {
+    background: transparent url(../icons/logo-eye.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    transition: 0.2s;
 }
 
-.partner img:hover{
-    filter: contrast(1);
-    transition: 0.3s;
-}
-
-.partner{
-    float: right;
-}
-
-button{
-    width: 515px;
-    height: 115px;
-    background: #4711ef;
-    color: white;
+.devi-text{
     font-family: 'Main', 'Bog-Caps', 'Bog', sans-serif;
-    font-size: 58px;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
-    margin-bottom: 30px;
-    transition: 0.5s;
-}
-
-button:hover{
-    box-shadow: 0px 10px 20px #4711ef94;
-    transition: 0.5s;
-}
-
-h1{
-    font-family: 'Main', 'Bog-Caps', 'Bog', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
+    margin-top: 30px;
+    margin-bottom: 85px;
     font-weight: normal;
+    color: #ededed;
 }
 
-footer{
-    border-top: 2px solid #4711ef;
-    position: fixed;
-    bottom: 0;
-    width: 95%;
-}
-
-footer a{
+.startmenu{
+    font-size: 33px;
     font-family: 'Bog-Caps', 'Bog', sans-serif;
-    font-size: 25px;
+    display: block;
+    color: white;
     text-decoration: none;
-    color: #282828;
-    font-weight: bold;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.startmenu:hover{
+    border-left: 5px solid #612eff;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+footer {
+    border-top: 2px solid #ededed;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    opacity: 0.7;
+}
+
+footer a {
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ededed;
     line-height: 50px;
     transition: 0.3s;
 }
 
-footer a:hover{
-    text-decoration: underline #282828;
+.partner img {
+    height: 30px;
+    width: auto;
+    filter: invert(1);
+    margin-top: 5px;
     transition: 0.3s;
 }
 
-@media only screen and (max-width: 650px) {
-    .devi-logo{
-        width: 200px;
-        height: 200px;
-        margin-top: 70px;
-        margin-bottom: 50px;
-    }
-    button{
-        width: 250px;
-        height: 80px;
-        font-size: 25px;
-        border-radius: 20px;
-        margin-bottom: 10px;
-        transition: 0.5s;
-    }
-    footer{
-        border-top: 2px solid #4711ef;
-        position: fixed;
-        bottom: 0;
-        width: 80%;
-    }
-}
-
-
-@media only screen and (max-width: 320px) {
-    h1{
-        display: none;
-    }
+.partner {
+    float: right;
 }
