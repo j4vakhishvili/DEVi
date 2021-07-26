@@ -21,3 +21,7 @@ nav{
     background: #e0740e;
     transition: 0.3s;
 }
+
+.on{
+    border-bottom: 3px solid #f27e10;
+}

@@ -1,0 +1,92 @@
+.categories{
+    height: 100%;
+    width: 400px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+
+.left-menu{
+    position: fixed;
+    top: 102px;
+    padding-top: 118px;
+    padding-bottom: 0;
+    height: 100%;
+    width: 450px;
+    background-color: transparent;
+}
+
+.left-menu-inner{
+    height: 800px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 64px;
+    background: #E7E9EB;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .left-menu-inner{
+    background: #0c0c0c;
+    transition: 0.3s;
+}
+
+#myInput {
+    background-image: url(../icons/search-icon-01.png);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    width: 300px;
+    font-size: 16px;
+    padding: 7px 20px 7px 50px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: 'Bog-Caps', sans-serif;
+    border-radius: 8px;
+}
+
+#myUL{
+    margin-top: 50px;
+    padding-inline-start: 0px;
+}
+
+#myUL li{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#myUL li a{
+    font-family: 'Bog-Caps', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] #myUL li a{
+    color: rgba(255, 255, 255, 0.87);
+    transition: 0.3s;
+}
+
+#myUL li a:hover{
+    color: #9b9b9b;
+    transition: 0.3s;
+}
+
+.on{
+    border-bottom: 3px solid #4c10f2;
+}
+
+.search{
+    position: fixed;
+    width: 410px;
+    margin-top: -20px;
+    background: #E7E9EB;
+}
+
+[data-theme="dark"] .search{
+    background: #0c0c0c;
+    transition: 0.3s;
+}
