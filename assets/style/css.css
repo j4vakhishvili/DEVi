@@ -1,0 +1,23 @@
+.active{
+    color: #11a5ef;
+}
+
+.active:hover{
+    color: #11a5ef;
+}
+
+[data-theme="dark"] .active{
+    color: #11a5ef;
+    transition: 0.3s;
+}
+
+nav{
+    background: #11a5ef;
+    width: 100%;
+    height: 80px;
+}
+
+[data-theme="dark"] nav{
+    background: #1094d6;
+    transition: 0.3s;
+}
