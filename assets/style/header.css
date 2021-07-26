@@ -23,6 +23,10 @@
     color: #ededed;
 }
 
+[data-theme="dark"] header{
+    background: #0c0c0c;
+}
+
 header ul{
     float: right;
     margin-top: 42px;
