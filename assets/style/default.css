@@ -399,6 +399,6 @@ template {
 
 @media only screen and (max-width: 650px){
   .container{
-    width: 80%;
+    width: 270px;
   }
 }
