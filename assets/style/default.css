@@ -19,6 +19,11 @@
   margin-right: auto;
 }
 
+[data-theme="dark"] {
+  background-color: #121212;
+  transition: 0.3s;
+}
+
 ::-webkit-scrollbar {
     width: 12px;
   }
