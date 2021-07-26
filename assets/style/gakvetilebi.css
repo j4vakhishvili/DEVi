@@ -1,0 +1,61 @@
+.main {
+    width: 1100px;
+    margin-left: 470px;
+    padding-right: 30px;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .main{
+    border-right: 3px solid #080808;
+    transition: 0.3s;
+}
+
+.main-head{
+    margin-top: 20px;
+}
+
+.gobtn{
+    width: 50px;
+    height: 50px;
+    background: #ededed;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .gobtn{
+    background: #0c0c0c;
+    transition: 0.3s;
+}
+
+.gobtn:hover{
+    background: #d8d8d8;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .gobtn:hover{
+    background: #1f1f1f;
+    transition: 0.3s;
+}
+
+.next{
+    float: right;
+}
+
+.prev, .title{
+    float: left;
+}
+
+.title{
+    font-family: 'Bog-Caps', sans-serif;
+    padding-left: 30px;
+    font-size: 40px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .title{
+    color: #d8d8d8;
+    transition: 0.3s;
+}
