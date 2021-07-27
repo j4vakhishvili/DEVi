@@ -1,0 +1,70 @@
+.start-learning{
+    width: 1450px;
+    height: 230px;
+    background: #edd9ca;
+    padding-top: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+[data-theme="dark"] .start-learning{
+    background: #e0740e47;
+    transition: 0.3s;
+}
+
+.start-learning p{
+    margin: 0;
+    font-family: 'Bog', sans-serif;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .start-learning p{
+    color: #dedede;
+    transition: 0.3s;
+}
+
+.start-learning button{
+    margin-left: 80px;
+    width: 375px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bog-Caps', sans-serif;
+    background: #f27e10;
+    color: white;
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+
+.start-learning button:hover{
+    background: rgb(250, 155, 66);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .start-learning button:hover{
+    background: #b65902;
+    transition: 0.3s;
+}
+
+.satauri{
+    font-family: 'Bog-Caps', sans-serif;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.quizes{
+    background: transparent;
+}
+
+.quizes p{
+    line-height: 30px;
+}
+
+[data-theme="dark"] .quizes{
+    background: transparent;
+}
