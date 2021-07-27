@@ -18,7 +18,7 @@
 }
 
 .left-menu-inner{
-    height: 800px;
+    height: 100%;
     width: 100%;
     overflow: overlay;
     padding-top: 20px;
@@ -97,4 +97,9 @@
 [data-theme="dark"] .search{
     background: #0c0c0c;
     transition: 0.3s;
+}
+
+.space{
+    height: 230px;
+    width: 100%;
 }
