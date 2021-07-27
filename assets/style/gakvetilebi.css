@@ -93,6 +93,9 @@
     .main-head {
         width: 700px;
     }
+    .contact{
+        padding-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -106,4 +109,8 @@
         margin-top: 4px;
         text-align: center;
     }
+}
+
+h2{
+    margin: 0;
 }

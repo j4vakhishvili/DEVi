@@ -54,7 +54,7 @@
 }
 
 .space{
-    height: 230px;
+    height: 80px;
     width: 100%;
 }
 
@@ -127,8 +127,6 @@
       filter: invert(1);
       cursor: pointer;
   }
-
-  
 
   @media only screen and (max-width: 1250px){
     .m-categories{
