@@ -25,3 +25,7 @@ nav{
 .on{
     border-bottom: 3px solid #11a5ef;
 }
+
+.overlay p {
+    border-bottom: 3px solid #11a5ef;
+}
