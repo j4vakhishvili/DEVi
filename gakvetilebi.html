@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEVi • დევი</title>
     <meta name="language" content="georgian">
@@ -19,31 +18,34 @@
     <link rel="stylesheet" href="assets/style/categories.css">
     <link rel="stylesheet" href="assets/style/gakvetilebi.css">
     <link rel="stylesheet" href="assets/style/html.css">
+    <link rel="stylesheet" href="assets/style/ads.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="index.html"><div class="logo"></div><p class="logo-text">&lt;/DEVi • დევი&gt;</p></a>
-            <ul>
-                <li><a href="gakvetilebi.html" class="active">გაკვეთილები</a></li>
-                <li><a href="gakvetilebi.html">ვიდეო გაკვეთილები</a></li>
-                <li><a href="gakvetilebi.html">სავარჯიშოები</a></li>
-            </ul>
-        </div>
-    </header>
-    <nav>
-        <div class="container">
-            <div class="menu">
-                <a href="gakvetilebi.html" class="activated">HTML</a>
-                <a href="#">CSS</a>
+    <div class="navigation">
+        <header>
+            <div class="container">
+                <a href="index.html"><div class="logo"></div><p class="logo-text">&lt;/DEVi • დევი&gt;</p></a>
+                <ul>
+                    <li><a href="gakvetilebi.html" class="active">გაკვეთილები</a></li>
+                    <li><a href="gakvetilebi.html">ვიდეო გაკვეთილები</a></li>
+                    <li><a href="gakvetilebi.html">სავარჯიშოები</a></li>
+                </ul>
             </div>
-            <div class="dark-mode">
-                <input type="checkbox" class="form-check-input" id="darkSwitch">
-                <div class="dark-mode-icon"></div>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <a href="gakvetilebi.html" class="activated">HTML</a>
+                    <a href="#">CSS</a>
+                </div>
+                <div class="dark-mode">
+                    <input type="checkbox" class="form-check-input" id="darkSwitch">
+                    <div class="dark-mode-icon"></div>
+                </div>
             </div>
-        </div>
-    </nav>
-    <div class="categories">
+        </nav>
+    </div>
+    <div class="categories" id="left-menu">
         <div class="left-menu">
             <div class="left-menu-inner">
                 <div class="search"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოიძიე კატეგორია..." title="მოიძიე კატეგორია"></div>
@@ -88,14 +90,48 @@
             </div>
         </div>
     </div>
+    <div class="freespace"></div>
+    <div class="ads">
+        <div class="ad ad-cover1"></div>
+        <div class="ad ad-cover2"></div>
+    </div>
     <div class="main">
         <div class="main-head">
             <button class="gobtn prev" onclick="window.history.back()"></button>
             <h1 class="title">შესავალი</h1>
             <button class="gobtn next"></button>
         </div>
+        <div class="content">
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+            <h2>კონტენტი</h2>
+        </div>
     </div>
     <script src="assets/script/darkmode.js"></script>
-    <script src="assets/script/search.js"></script>
+    <script src="assets/script/categories.js"></script>
 </body>
 </html>
