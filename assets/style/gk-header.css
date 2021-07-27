@@ -213,6 +213,18 @@ nav a{
     transition: 0.3s;
   }
 
+  .overlay p {
+    padding: 8px;
+    text-decoration: none;
+    font-family: 'Main', 'BOG-Caps', sans-serif;
+    font-size: 28px;
+    color: #030303;
+    border-bottom: 3px solid #4c10f2;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+  }
+
   [data-theme="dark"] .overlay a{
     color: white;
     transition: 0.3s;
