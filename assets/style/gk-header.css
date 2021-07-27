@@ -236,7 +236,12 @@ nav a{
     transition: 0.3s;
   }
 
-  [data-theme="dark"] .overlay a, .overlay p{
+  [data-theme="dark"] .overlay a{
+    color: white;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .overlay p{
     color: white;
     transition: 0.3s;
 }
