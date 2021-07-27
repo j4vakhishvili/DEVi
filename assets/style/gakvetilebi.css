@@ -1,20 +1,6 @@
-.main {
-    width: 1070px;
-    margin-left: 470px;
-    padding-right: 30px;
-    margin-top: -20px;
-    transition: 0.3s;
-    border-right: 3px solid #ededed;
-}
-
-[data-theme="dark"] .main{
-    border-right: 3px solid #080808;
-    transition: 0.3s;
-}
-
 .main-head{
     padding-top: 20px;
-    width: 1070px;
+    width: 1450px;
     position: fixed;
     background: white;
     height: 55px;
@@ -58,6 +44,20 @@
     float: left;
 }
 
+.gobtn img{
+    height: 25px;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .gobtn img{
+    filter: invert(0.7);
+    transition: 0.3s;
+}
+
+.prev img{
+    transform: rotate(180deg);
+}
+
 .title{
     font-family: 'Bog-Caps', sans-serif;
     padding-left: 30px;
@@ -69,4 +69,41 @@
 [data-theme="dark"] .title{
     color: #d8d8d8;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1830px){
+    .main-head {
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+    .main-head {
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .main-head {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .main-head {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .main-head {
+        width: 270px;
+    }
+    .title {
+        padding-left: 16px;
+        font-size: 20px;
+        width: 115px;
+        margin-top: 4px;
+        text-align: center;
+    }
 }

@@ -30,6 +30,9 @@
                     <li><a href="gakvetilebi.html">ვიდეო გაკვეთილები</a></li>
                     <li><a href="gakvetilebi.html">სავარჯიშოები</a></li>
                 </ul>
+                <div class="menu-icon"><img src="assets/icons/home-icon.svg" class="icon" onclick="window.location.href='index.html'"></div>
+                <div class="menu-icon"><img src="assets/icons/menu-icon.svg" class="icon"></div>
+                <div class="menu-icon"><div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div></div>
             </div>
         </header>
         <nav>
@@ -37,6 +40,7 @@
                 <div class="menu">
                     <a href="gakvetilebi.html" class="activated">HTML</a>
                     <a href="#">CSS</a>
+                    <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div>
                 </div>
                 <div class="dark-mode">
                     <input type="checkbox" class="form-check-input" id="darkSwitch">
@@ -45,91 +49,60 @@
             </div>
         </nav>
     </div>
-    <div class="categories" id="left-menu">
-        <div class="left-menu">
-            <div class="left-menu-inner">
-                <div class="search"><input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოიძიე კატეგორია..." title="მოიძიე კატეგორია"></div>
-                <ul id="myUL">
-                    <li class="on"><a href="gakvetilebi.html">შესავალი</a></li>
-                    <br><li><a href="#">გაცნობა</a></li>
-                    <br><li><a href="#">კოდედიტორები</a></li>
-                    <br><li><a href="#">საწყისები</a></li>
-                    <br><li><a href="#">ელემენტები</a></li>
-                    <br><li><a href="#">ატრიბუტები</a></li>
-                    <br><li><a href="#">Headings</a></li>
-                    <br><li><a href="#">პარაგრაფები</a></li>
-                    <br><li><a href="#">სტილები</a></li>
-                    <br><li><a href="#">ფორმატირება</a></li>
-                    <br><li><a href="#">ციტატები</a></li>
-                    <br><li><a href="#">კომენტარები</a></li>
-                    <br><li><a href="#">ფერები</a></li>
-                    <br><li><a href="#">CSS HTML-ში</a></li>
-                    <br><li><a href="#">ლინკები</a></li>
-                    <br><li><a href="#">ფოტოები</a></li>
-                    <br><li><a href="#">ცხრილები</a></li>
-                    <br><li><a href="#">სიები</a></li>
-                    <br><li><a href="#">კლასები და ID</a></li>
-                    <br><li><a href="#">ჩაშენებები</a></li>
-                    <br><li><a href="#">JavaScript</a></li>
-                    <br><li><a href="#">ფაილების ლოკაციები</a></li>
-                    <br><li><a href="#">თავი</a></li>
-                    <br><li><a href="#">წყობა</a></li>
-                    <br><li><a href="#">რესფონსივი</a></li>
-                    <br><li><a href="#">Computercode</a></li>
-                    <br><li><a href="#">Semantics</a></li>
-                    <br><li><a href="#">კოდის ხელოვნება</a></li>
-                    <br><li><a href="#">სიმბოლოები</a></li> <!--  აერთიანებს Entities, სიმბოლოებს და ემოჯებს -->
-                    <br><li><a href="#">ბმულები</a></li>
-                    <br><li><a href="#">Charset</a></li>
-                    <br><li><a href="#">ფორმები</a></li>
-                    <br><li><a href="#">გრაფიკა</a></li>
-                    <br><li><a href="#">მედია</a></li>
-                    <br><li><a href="#">APIs</a></li>
-                    <div class="space"></div>
-                </ul>
-            </div>
-        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოიძიე კატეგორია..." title="მოიძიე კატეგორია">
+                    <ul id="myUL">
+                        <li class="on"><a href="gakvetilebi.html">შესავალი</a></li>
+                        <br><li><a href="#" class="m-ca">გაცნობა</a></li>
+                        <br><li><a href="#">კოდედიტორები</a></li>
+                        <br><li><a href="#">საწყისები</a></li>
+                        <br><li><a href="#">ელემენტები</a></li>
+                        <br><li><a href="#">ატრიბუტები</a></li>
+                        <br><li><a href="#">Headings</a></li>
+                        <br><li><a href="#">პარაგრაფები</a></li>
+                        <br><li><a href="#">სტილები</a></li>
+                        <br><li><a href="#">ფორმატირება</a></li>
+                        <br><li><a href="#">ციტატები</a></li>
+                        <br><li><a href="#">კომენტარები</a></li>
+                        <br><li><a href="#">ფერები</a></li>
+                        <br><li><a href="#">CSS HTML-ში</a></li>
+                        <br><li><a href="#">ლინკები</a></li>
+                        <br><li><a href="#">ფოტოები</a></li>
+                        <br><li><a href="#">ცხრილები</a></li>
+                        <br><li><a href="#">სიები</a></li>
+                        <br><li><a href="#">კლასები და ID</a></li>
+                        <br><li><a href="#">ჩაშენებები</a></li>
+                        <br><li><a href="#">JavaScript</a></li>
+                        <br><li><a href="#">ფაილების ლოკაციები</a></li>
+                        <br><li><a href="#">თავი</a></li>
+                        <br><li><a href="#">წყობა</a></li>
+                        <br><li><a href="#">რესფონსივი</a></li>
+                        <br><li><a href="#">Computercode</a></li>
+                        <br><li><a href="#">Semantics</a></li>
+                        <br><li><a href="#">კოდის ხელოვნება</a></li>
+                        <br><li><a href="#">სიმბოლოები</a></li> <!--  აერთიანებს Entities, სიმბოლოებს და ემოჯებს -->
+                        <br><li><a href="#">ბმულები</a></li>
+                        <br><li><a href="#">Charset</a></li>
+                        <br><li><a href="#">ფორმები</a></li>
+                        <br><li><a href="#">გრაფიკა</a></li>
+                        <br><li><a href="#">მედია</a></li>
+                        <br><li><a href="#">APIs</a></li>
+                        <div class="space"></div>
+                    </ul>
     </div>
     <div class="freespace"></div>
     <div class="ads">
         <div class="ad ad-cover1"></div>
         <div class="ad ad-cover2"></div>
     </div>
-    <div class="main">
+    <div class="container">
         <div class="main-head">
-            <button class="gobtn prev" onclick="window.history.back()"></button>
+            <button class="gobtn prev" onclick="window.history.back()"><img src="assets/icons/next-perv-btn-icon.svg"></button>
             <h1 class="title">შესავალი</h1>
-            <button class="gobtn next"></button>
+            <button class="gobtn next"><img src="assets/icons/next-perv-btn-icon.svg"></button>
         </div>
-        <div class="content">
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-            <h2>კონტენტი</h2>
-        </div>
+        
     </div>
     <script src="assets/script/darkmode.js"></script>
     <script src="assets/script/categories.js"></script>

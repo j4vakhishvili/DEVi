@@ -1,5 +1,5 @@
 .ads{
-    width: 300px;
+    width: 365px;
     float: right;
     transition: 0.3s;
 }
@@ -18,4 +18,10 @@
 [data-theme="dark"] .ad{
     background: #0c0c0c;
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 1250px){
+    .ads{
+        display: none;
+    }
 }
