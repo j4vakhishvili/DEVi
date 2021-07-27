@@ -20,12 +20,15 @@
     transition: 0.3s;
 }
 
+.discord{
+    display: block;
+}
+
 @media only screen and (max-width: 1250px){
     .ads{
         display: none;
     }
-}
-
-.discord{
-    display: none;
+    .discord{
+        display: none;
+    }
 }
