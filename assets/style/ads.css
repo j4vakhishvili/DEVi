@@ -1,6 +1,5 @@
 .ads{
     width: 300px;
-    border-left: 3px solid #ededed;
     float: right;
     transition: 0.3s;
 }
@@ -13,11 +12,6 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    transition: 0.3s;
-}
-
-[data-theme="dark"] .ads{
-    border-left: 3px solid #050505;
     transition: 0.3s;
 }
 

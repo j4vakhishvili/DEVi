@@ -1,9 +1,10 @@
 .main {
-    width: 1100px;
+    width: 1070px;
     margin-left: 470px;
     padding-right: 30px;
     margin-top: -20px;
     transition: 0.3s;
+    border-right: 3px solid #ededed;
 }
 
 [data-theme="dark"] .main{
@@ -13,10 +14,15 @@
 
 .main-head{
     padding-top: 20px;
-    width: 1100px;
+    width: 1070px;
     position: fixed;
     background: white;
     height: 55px;
+}
+
+[data-theme="dark"] .main-head{
+    background: #121212;
+    transition: 0.3s;
 }
 
 .gobtn{
