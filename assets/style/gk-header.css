@@ -63,14 +63,6 @@ header ul li{
     display: inline-block;
 }
 
-.active{
-    color: #4c10f2;
-}
-
-.active:hover{
-    color: #4c10f2;
-}
-
 [data-theme="dark"] .active{
     color: #4c10f2;
     transition: 0.3s;
@@ -160,6 +152,74 @@ nav a{
     background: #121212;
     transition: 0.3s;
 }
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  [data-theme="dark"] .overlay{
+    background: #121212;
+    transition: 0.3s;
+}
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    font-family: 'Bog-Caps', sans-serif;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+
+  [data-theme="dark"] .overlay a{
+    color: white;
+    transition: 0.3s;
+}
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  
+.active{
+    color: #4c10f2;
+}
+
+.active:hover{
+    color: #4c10f2;
+}
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
 
 @media only screen and (max-width: 1830px){
     header ul li a{
