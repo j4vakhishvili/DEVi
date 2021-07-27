@@ -63,6 +63,14 @@ header ul li{
     display: inline-block;
 }
 
+.active{
+    color: #4c10f2;
+}
+
+.active:hover{
+    color: #4c10f2;
+}
+
 [data-theme="dark"] .active{
     color: #4c10f2;
     transition: 0.3s;
@@ -153,6 +161,23 @@ nav a{
     transition: 0.3s;
 }
 
+.m-nm{
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: #ffffffed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -165,7 +190,8 @@ nav a{
     transition: 0.5s;
   }
 
-  [data-theme="dark"] .overlay{
+  
+[data-theme="dark"] .overlay{
     background: #121212;
     transition: 0.3s;
 }
@@ -179,10 +205,10 @@ nav a{
   
   .overlay a {
     padding: 8px;
-    font-family: 'Bog-Caps', sans-serif;
     text-decoration: none;
+    font-family: 'BOG-Caps';
     font-size: 36px;
-    color: #000000;
+    color: #030303;
     display: block;
     transition: 0.3s;
   }
@@ -202,15 +228,6 @@ nav a{
     right: 45px;
     font-size: 60px;
   }
-
-  
-.active{
-    color: #4c10f2;
-}
-
-.active:hover{
-    color: #4c10f2;
-}
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -244,7 +261,7 @@ nav a{
     .navigation{
         border-top: 1px solid black;
         bottom: 0;
-        height: 150px;
+        height: 140px;
         position: fixed;
     }
     .freespace{
@@ -268,6 +285,15 @@ nav a{
         filter: invert(0.7);
         transition: 0.3s;
     }
+    .m-nm{
+        display: block;
+        float: right;
+        margin-top: 45px;
+    }
+    #darkSwitch{
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -275,6 +301,7 @@ nav a{
         width: 45px;
         height: 45px;
         margin-top: 20px;
+        margin-left: 8px;
     }
     .icon {
         height: 30px;
@@ -287,5 +314,17 @@ nav a{
     }
     .navigation{
         height: 80px;
+    }
+    .m-nm{
+        display: block;
+        float: right;
+        margin-top: 27px;
+    }
+    #darkSwitch{
+        width: 30px;
+        height: 30px;
+    }
+    .overlay a{
+        font-size: 27px;
     }
 }
