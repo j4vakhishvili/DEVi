@@ -88,8 +88,29 @@
     margin-top: 50px;
 }
 
+.html-structure{
+    padding-left: 80px;
+}
+
+.html-structure-desc{
+    margin: 0;
+    font-family: 'Bog', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .html-structure-desc{
+    color: #dedede;
+}
+
+.html-page-structure{
+    width: 740px;
+}
+
 .cont-title{
-    font-size: 28px;
+    font-size: 28px !important;
     margin: 0;
     padding: 0;
     font-weight: bold;
