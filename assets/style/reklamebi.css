@@ -1,10 +1,10 @@
-.ads{
+.reklamebi{
     width: 365px;
     float: right;
     transition: 0.3s;
 }
 
-.ad{
+.reklama{
     width: 260px;
     height: 480px;
     background: #ededed;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 1250px){
-    .ads{
+    .reklamebi{
         display: none;
     }
     .discord{
