@@ -117,6 +117,26 @@ footer {
     float: right;
 }
 
+@media only screen and (max-width: 1550px) {
+    .content {
+        width: 1000px;
+        height: 620px;
+    }
+    .devi-logo, .devi-logo:hover {
+        width: 160px;
+        height: 160px;
+    }
+    .inside-content {
+        margin-top: 70px;
+    }
+    .startmenu {
+        font-size: 26px;
+    }
+    .devi-text{
+        margin-bottom: 55px;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
     .content {
         width: 800px;
