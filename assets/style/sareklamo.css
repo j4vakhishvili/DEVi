@@ -13,11 +13,10 @@
 }
 
 .sareklamo-img{
-    width: 1149px;
-    height: 662px;
-    background: transparent url(../media/photo/devi-reklama.png) no-repeat;
+    width: 1150px;
     margin-top: 60px;
     float: left;
+    transition: 0.3s;
 }
 
 .title{
@@ -36,4 +35,55 @@
 .e-mail{
     color: #4711ef;
     -webkit-text-stroke: 1px #4711ef;
+}
+
+@media only screen and (max-width: 1800px){
+    .sareklamo-img{
+        width: 800px;
+    }
+    .center {
+        width: 26.5%;
+    } 
+    .sareklamo-text {
+        width: 670px;
+    }       
+}
+
+@media only screen and (max-width: 1550px){
+    .center {
+        width: 34%;
+    } 
+    .sareklamo-img {
+        width: 100%;
+    }
+    .sareklamo-text {
+        width: 100%;
+        margin-top: 30px;
+    }   
+}
+
+@media only screen and (max-width: 1250px){
+    .center {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .center {
+        width: 100%;
+    }
+    .gobckicon {
+        width: 65px;
+        height: 65px;
+    }
+    .gohomeboy img {
+        height: 30px;
+        padding: 18px 17px;
+    }
+    .sareklamo-img {
+        margin-top: 0px;
+    }
+    .devi-logo {
+        margin-top: 10px;
+    }
 }
