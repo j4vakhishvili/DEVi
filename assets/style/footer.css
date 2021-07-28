@@ -116,6 +116,9 @@ footer a:hover{
         text-align: center;
         padding-right: 0px;
     }
+    footer{
+        margin-bottom: 150px;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -131,5 +134,8 @@ footer a:hover{
     }
     .partner img {
         height: 38px;
+    }
+    footer{
+        margin-bottom: 85px;
     }
 }
