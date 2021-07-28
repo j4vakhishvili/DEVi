@@ -11,7 +11,7 @@ footer{
 
 footer a{
     font-family: 'Bog-Caps', 'Bog', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     color: #282828;
     font-weight: bold;
@@ -19,20 +19,44 @@ footer a{
     transition: 0.3s;
 }
 
+.ft-menu, .rights{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.rights{
+    float: right;
+}
+
+.ft-menu a{
+    margin-right: 20px;
+}
+
+.rights a:hover{
+    text-decoration: none !important;
+}
+
 footer a:hover{
     text-decoration: underline #282828;
     transition: 0.3s;
 }
 
-.partner img{
-    height: 50px;
+.partner img {
+    height: 45px;
+    margin-top: 5px;
     width: auto;
-    filter: contrast(0.3);
+    filter: invert(0.5);
     transition: 0.3s;
 }
 
 .partner img:hover{
-    filter: contrast(1);
+    filter: invert(0);
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .partner img:hover{
+    filter: invert(1);
     transition: 0.3s;
 }
 
@@ -55,4 +79,57 @@ footer a:hover{
 
 [data-theme="dark"] .darkmtxt {
     color: rgb(218, 218, 218);
+}
+
+@media only screen and (max-width: 1550px) {
+    .ft-menu, .rights {
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer a {
+        font-size: 16px;
+    }
+    .ft-menu a {
+        margin-right: 10px;
+    }
+    .rights{
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    footer a {
+        font-size: 19px;
+        line-height: 40px;
+    }
+    .ft-menu{
+        padding-left: 1px;
+        padding-right: 0px;
+    }
+    .ft-menu a {
+        margin-right: 16px;
+    }
+    .rights{
+        width: 100%;
+        margin-top: 0px;
+        text-align: center;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    footer a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .rights{
+        padding-right: 15px;
+    }
+    .darkmtxt{
+        font-size: 30px;
+    }
+    .partner img {
+        height: 38px;
+    }
 }
