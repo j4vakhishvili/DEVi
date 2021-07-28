@@ -1,0 +1,75 @@
+.code-machine{
+    width: 490px;
+    height: 295px;
+    background: #040211;
+    border: 8pt solid #f27e10;
+    border-radius: 25px;
+    margin-top: 20px;
+    float: left;
+}
+
+.code-machine xmp{
+    color: white;
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.machine{
+    width: 450px;
+    height: 255px;
+    background: white;
+    border: 8pt solid #f27e10;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1550px){
+    .code-machine{
+        width: 395px;
+    }
+    .machine{
+        width: 355px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .code-machine{
+        width: 675px;
+    }
+    .machine{
+        width: 635px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    .code-machine{
+        width: 86%;
+    }
+    .machine {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .code-machine{
+        width: 94%;
+        height: 240px;
+        border: 4pt solid #f27e10;
+    }
+    .code-machine xmp {
+        color: white;
+        font-size: 14px;
+        padding-left: 22px;
+    }
+    .machine {
+        width: 78%;
+        border: 4pt solid #f27e10;
+        height: 225px;
+    }
+}
