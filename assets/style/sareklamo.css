@@ -1,0 +1,39 @@
+.center{
+    width: 22.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reklama-text{
+    font-family: 'Bog-Caps', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #4711ef;
+    color: #4711ef;
+}
+
+.sareklamo-img{
+    width: 1149px;
+    height: 662px;
+    background: transparent url(../media/photo/devi-reklama.png) no-repeat;
+    margin-top: 60px;
+    float: left;
+}
+
+.title{
+    border-bottom: 3px solid #4711ef;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.sareklamo-text{
+    margin-top: 60px;
+    width: 570px;
+    float: right;
+}
+
+.e-mail{
+    color: #4711ef;
+    -webkit-text-stroke: 1px #4711ef;
+}

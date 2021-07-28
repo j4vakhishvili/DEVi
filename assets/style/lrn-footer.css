@@ -1,0 +1,100 @@
+footer{
+    margin-top: 30px;
+    width: 1450px;
+    height: 20px;
+    padding-top: 20px;
+    border-top: 3px solid #4711ef;
+    margin-bottom: 20px;
+}
+
+.ft-menu a{
+    font-family: 'Bog-Caps', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+[data-theme="dark"] .ft-menu a {
+    color: rgb(218, 218, 218);
+}
+
+.ft-menu a:hover{
+    text-decoration: underline;
+}
+
+.rights a{
+    font-family: 'Bog-Caps', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+[data-theme="dark"] .rights a {
+    color: rgb(218, 218, 218);
+}
+
+.ft-menu{
+    float: left;
+}
+
+.rights{
+    float: right;
+}
+
+@media only screen and (max-width: 1830px){
+    footer{
+        width: 1200px;
+    }
+}
+
+@media only screen and (max-width: 1550px){
+    footer{
+        width: 1000px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    footer{
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    footer{
+        width: 100%;
+        margin-bottom: 180px;
+    }
+    .ft-menu{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .rights{
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    footer{
+        padding-top: 10px;
+        margin-bottom: 135px;
+        border-top: 2px solid #4711ef;
+    }
+    .ft-menu{
+        width: 100%;
+        text-align: center;
+    }
+    .ft-menu a{
+        font-size: 12px;
+        margin-right: 6px;
+    }
+    .rights{
+        margin-top: 3px;
+    }
+    .rights a{
+        font-size: 12px;
+    }
+}

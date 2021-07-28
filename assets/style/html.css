@@ -29,3 +29,13 @@ nav{
 .overlay p {
     border-bottom: 3px solid #f38a26;
 }
+
+footer{
+    border-top: 3px solid #f27e10;
+}
+
+@media only screen and (max-width: 750px){
+    footer{
+        border-top: 2px solid #f27e10;
+    }
+}
