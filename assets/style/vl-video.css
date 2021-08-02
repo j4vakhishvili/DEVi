@@ -1,0 +1,92 @@
+.content{
+    width: 1450px;
+}
+
+.vl-cover{
+    width: 100%;
+    height: 235px;
+    border-radius: 40px;
+    background: #4711ef;
+    margin-top: 20px;
+}
+
+.vl-gobckbtn{
+    font-family: 'Bog-Caps';
+    cursor: pointer;
+    font-family: 21px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    margin-top: 30px;
+    color: white;
+    float: left;
+}
+
+.vl-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.lenght{
+    float: right;
+    font-family: 'Bog-Caps';
+    font-family: 21px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    margin-top: 30px;
+    color: white;
+}
+
+.vl-info{
+    margin-top: 90px;
+}
+
+.thumbnail{
+    width: 215px;
+    height: 155px;
+    background: #4c10f2;
+    border-radius: 40px;
+    border: 10pt solid white;
+    float: left;
+}
+
+.vl-title{
+    float: left;
+    margin-left: 35px;
+    margin-top: 125px;
+    font-family: 'Bog-Caps';
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.vl-desc{
+    left: 145px;
+    margin-top: 80px;
+    position: absolute;
+    font-family: 'Bog';
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.vl-vid{
+    width: 640px;
+    height: 460px;
+    border-radius: 70px;
+    background: #4711ef;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.comments{
+    width: 650px;
+    height: 360px;
+    border-radius: 70px;
+    background: #ededed;
+    margin-top: 160px;
+    float: right;
+    padding: 50px;
+    overflow: auto;
+}
