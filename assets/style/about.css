@@ -200,7 +200,7 @@ header{
 .dark-mode{
     float: left !important;
     margin-top: 8px !important;
-    filter: initial;
+    filter: initial !important;
 }
 
 [data-theme="dark"] .dark-mode {
