@@ -204,7 +204,7 @@ header{
 }
 
 [data-theme="dark"] .dark-mode {
-    filter: invert(1);
+    filter: invert(1) !important;
     transition: 0.3s;
 }
 
