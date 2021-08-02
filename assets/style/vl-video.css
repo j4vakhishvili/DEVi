@@ -89,12 +89,10 @@
     float: right;
     padding: 50px;
     overflow: auto;
-}
-
-[data-theme="dark"] .comment-body p {
-    color: white;
+    transition: 0.3s;
 }
 
 [data-theme="dark"] .comments {
-    color: #141414;
+    background: #251f35;
+    transition: 0.3s;
 }
