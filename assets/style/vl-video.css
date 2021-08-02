@@ -90,3 +90,11 @@
     padding: 50px;
     overflow: auto;
 }
+
+[data-theme="dark"] .comment-body p {
+    color: white;
+}
+
+[data-theme="dark"] .comments {
+    color: #141414;
+}
