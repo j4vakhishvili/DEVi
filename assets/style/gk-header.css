@@ -124,24 +124,22 @@ nav a{
 
 .dark-mode{
     float: right;
-    padding-top: 25px;
-}
-
-#darkSwitch {
-    width: 30px;
-    height: 30px;
-}
-
-.dark-mode-icon{
+    margin-top: 25px;
     width: 30px;
     height: 30px;
     background: url(../icons/night-mode-icon.svg);
     background-position: 50%, 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    display: inline-block;
     filter: invert(1);
     transition: 0.3s;
+}
+
+#darkSwitch {
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
 }
 
 [data-theme="dark"] .dark-mode-icon{
@@ -310,8 +308,8 @@ nav a{
     .menu {
         padding-top: 6.5px;
     }
-    .dark-mode {
-        padding-top: 12.5px;
+    .dark-mode{
+        margin-top: 12px;
     }
     .freespace {
         height: 155px;

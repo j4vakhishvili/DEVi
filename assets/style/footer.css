@@ -65,8 +65,19 @@ footer a:hover{
 }
 
 #darkSwitch {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.dark-mode{
+    float: left;
+    margin-top: 11px;
+    filter: initial;
+}
+
+[data-theme="dark"] .dark-mode{
+    filter: invert(1);
+    transition: 0.3s;
 }
 
 .darkmtxt {
