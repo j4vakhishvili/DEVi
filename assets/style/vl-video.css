@@ -246,6 +246,10 @@
         margin-top: 20px;
         margin-left: 10px;
     }
+    [data-theme="dark"] .thumbnail {
+        border: 6pt solid #121212;
+        transition: 0.3s;
+    }
     .vl-container{
         padding-top: 0px;
     }
