@@ -56,6 +56,9 @@ footer{
     footer{
         width: 900px;
     }
+    .ft-menu a{
+        margin-right: 8px;
+    }
 }
 
 @media only screen and (max-width: 1250px){
