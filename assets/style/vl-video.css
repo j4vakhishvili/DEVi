@@ -244,7 +244,7 @@
         height: 135px;
         border: 6pt solid white;
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 7px;
     }
     [data-theme="dark"] .thumbnail {
         border: 6pt solid #121212;
