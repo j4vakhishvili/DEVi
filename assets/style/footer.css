@@ -149,4 +149,11 @@ footer a:hover{
     footer{
         margin-bottom: 85px;
     }
+    #darkSwitch {
+        width: 30px;
+        height: 30px;
+    }
+    .dark-mode {
+        margin-top: 8px;
+    }
 }
