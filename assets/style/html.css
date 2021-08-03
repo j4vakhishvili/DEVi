@@ -34,6 +34,10 @@ footer{
     border-top: 3px solid #f27e10;
 }
 
+.ft-menu a:hover{
+    border-bottom: 2px solid #f27e10;
+}
+
 @media only screen and (max-width: 750px){
     footer{
         border-top: 2px solid #f27e10;

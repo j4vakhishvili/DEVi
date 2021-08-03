@@ -12,6 +12,7 @@ footer{
     text-decoration: none;
     color: black;
     margin-right: 30px;
+    transition: 0.3s;
 }
 
 [data-theme="dark"] .ft-menu a {
@@ -19,7 +20,9 @@ footer{
 }
 
 .ft-menu a:hover{
-    text-decoration: underline;
+    border-bottom: 2px solid #4711ef;
+    padding-bottom: 3px;
+    transition: 0.3s;
 }
 
 .rights a{
