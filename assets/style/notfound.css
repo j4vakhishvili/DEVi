@@ -1,0 +1,139 @@
+[data-theme="dark"] {
+    background-color: #121212;
+}
+
+.logo{
+    width: 300px;
+    margin-top: 135px;
+    z-index: 1;
+}
+
+.circle{
+    background: #4711ef;
+    border-radius: 100%;
+}
+
+.cl1{
+    width: 130px;
+    height: 130px;
+    margin-top: -100px;
+    margin-right: 190px;
+}
+
+.cl2{
+    width: 150px;
+    height: 150px;
+    margin-top: -290px;
+    margin-left: 220px;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Main', 'Bog-Caps', sans-serif;
+}
+
+[data-theme="dark"] h1{
+    color: #c7c7c7;
+}
+
+.err404 {
+    margin-top: 200px;
+    font-size: 76px;
+}
+
+.notfound{
+    margin-top: 5px;
+}
+
+.fline{
+    letter-spacing: 13.7px;
+}
+
+.gohomeboy{
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+    width: 390px;
+}
+
+.gohomeboy:hover{
+    transform: scale(1.12);
+    transition: 0.3s;
+}
+
+.gobckicon {
+    width: 50px;
+    height: 50px;
+    background: #EDEDED;
+    border-radius: 15px;
+    float: left;
+}
+
+[data-theme="dark"] .gobckicon{
+    background-color: #0c0c0c;
+}
+
+.gohomeboy img {
+    height: 30px;
+    padding: 10px 10px;
+    transform: rotate(180deg);
+}
+
+[data-theme="dark"] .gohomeboy img {
+    filter: invert(0.8);
+}
+
+.homescreen {
+    font-family: 'Bog-Caps', 'Bog', sans-serif;
+    font-size: 35px;
+    color: #4711ef;
+    padding-left: 20px;
+    margin-top: 5px;
+    float: left;
+}
+
+.dark-mode{
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .logo{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .cl1 {
+        width: 80px;
+        height: 80px;
+        margin-top: -70px;
+        margin-right: 125px;
+    }
+    .cl2 {
+        width: 100px;
+        height: 100px;
+        margin-top: -200px;
+        margin-left: 150px;
+    }
+    .err404 {
+        margin-top: 130px;
+        font-size: 38px;
+    }
+    .fline {
+        letter-spacing: 0px;
+    }
+    .notfound{
+        font-size: 26px;
+    }
+    .sline{
+        font-size: 17px;
+        letter-spacing: -1px;
+    }
+    .homescreen{
+        display: none;
+    }
+    .gohomeboy{
+        width: 85px;
+    }
+    .gobckicon{
+        float: none;
+    }
+}

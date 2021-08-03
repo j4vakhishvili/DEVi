@@ -69,7 +69,7 @@ header{
 .gohomeboy{
     float: right;
     cursor: pointer;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .gohomeboy:hover{
