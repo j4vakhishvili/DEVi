@@ -16,12 +16,24 @@
     border-radius: 10px;
 }
 
-[data-theme="dark"] .start-learning, .intro{
+.ce-code-editors{
+    width: 1450px;
+    height: 115px;
+    background: #edd9ca;
+    padding-top: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+[data-theme="dark"] .start-learning, .intro, .ce-code-editors{
     background: #e0740e47;
     transition: 0.3s;
 }
 
-.start-learning p, .intro p{
+.start-learning p, .intro p, .ce-code-editors p{
     margin: 0;
     font-family: 'Bog', sans-serif;
     font-size: 16px;
@@ -36,6 +48,11 @@
 }
 
 [data-theme="dark"] .intro p{
+    color: #dedede;
+    transition: 0.3s;
+}
+
+[data-theme="dark"] .ce-code-editors p{
     color: #dedede;
     transition: 0.3s;
 }
@@ -117,6 +134,14 @@
     font-family: 'Bog-Caps', sans-serif;
 }
 
+.cont-desc{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bog', sans-serif;
+    line-height: 50px;
+}
+
 .what-is-html ul, .magalitis-axsna ul{
     padding: 15px;
     list-style: circle;
@@ -132,6 +157,54 @@
     width: 1070px;
 }
 
+.ce-step{
+    margin-top: 40px;
+}
+
+.ce-notepad{
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #f27e10;
+}
+
+.ce-save-notepad{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.ce-save-notepad-tab{
+    display: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.ce-save-notepad-mob{
+    display: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.intro a{
+    color: #c9680d;
+}
+
+.ce-notepad-med{
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #f27e10;
+}
+
+.ce-notepad-mob{
+    display: none;
+    border-radius: 10px;
+    border: 1px solid #f27e10;
+}
+
+[data-theme="dark"] .intro a{
+    color: #e0740e;
+}
+
 [data-theme="dark"] .what-is-html ul li{
     color: #dedede;
 }
@@ -144,17 +217,26 @@
     color: #dedede;
 }
 
+[data-theme="dark"] .cont-desc{
+    color: #dedede;
+    opacity: 0.7;
+}
+
 @media only screen and (max-width: 1830px){
-    .start-learning, .intro{
+    .start-learning, .intro, .ce-code-editors{
         width: 1200px;
     }
     .quizes{
         width: 1100px;
     }
+    .ce-vscode p {
+        padding-top: 14px;
+        width: 900px;
+    }
 }
 
 @media only screen and (max-width: 1550px){
-    .start-learning, .intro{
+    .start-learning, .intro, .ce-code-editors{
         width: 1000px;
     }
     .quizes{
@@ -163,10 +245,17 @@
     .magalitis-axsna{
         width: 850px;
     }
+    .ce-vscode p{
+        padding-top: 14px;
+        width: 700px;
+    }
+    .ce-save-notepad, .cont-desc{
+        width: 1000px;
+    }
 }
 
 @media only screen and (max-width: 1450px){
-    .start-learning, .intro{
+    .start-learning, .intro, .ce-code-editors{
         width: 900px;
     }
     .quizes{
@@ -175,10 +264,23 @@
     .magalitis-axsna {
         width: 735px;
     }
+    .ce-notepad-med{
+        display: block;
+    }
+    .ce-notepad{
+        display: none;
+    }
+    .ce-save-notepad, .cont-desc {
+        width: 900px;
+    }
+    .cont-desc{
+        line-height: 30px;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 1250px){
-    .start-learning, .intro{
+    .start-learning, .intro, .ce-code-editors{
         width: 700px;
     }
     .quizes{
@@ -193,6 +295,22 @@
     .html-page-structure{
         width: 90%;
     }
+    .ce-save-notepad-tab{
+        display: block;
+    }
+    .ce-save-notepad{
+        display: none;
+    }
+    .cont-desc {
+        width: 700px;
+    }
+    .ce-vscode p, .ce-code-editors p{
+        padding-top: 3px;
+        width: 500px;
+    }
+    .ce-vscode{
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (max-width: 750px){
@@ -200,17 +318,24 @@
         width: 270px;
         height: 215px;
     }
+    .ce-code-editors {
+        width: 270px;
+        height: 135px;
+    }
     .intro{
         width: 270px;
-        height: 70px;
+        height: 90px;
     }
     .quizes{
         width: 260px;
     }
-    .start-learning p, .intro p{
+    .start-learning p, .intro p, .ce-code-editors p{
         font-size: 12px;
         padding-left: 14px;
         padding-top: 10px;
+    }
+    .ce-code-editors p, .intro p{
+        width: 250px;
     }
     .start-learning button {
         margin-left: 14px;
@@ -245,5 +370,19 @@
     }
     .html-page-structure{
         width: 100%;
+    }
+    .cont-desc {
+        width: 260px;
+        line-height: 21px;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .ce-notepad-mob, .ce-save-notepad-mob{
+        display: block;
+        width: 265px;
+    }
+    .ce-notepad-med, .ce-save-notepad-tab{
+        display: none;
     }
 }
