@@ -27,12 +27,34 @@
     margin-bottom: 60px;
 }
 
+.cm-doctype-version{
+    height: 92px;
+}
+
+.cm-sataurebi{
+    height: 130px;
+}
+
+.cm-links{
+    width: 530px;
+}
+
+.cm-img-tag{
+    width: 580px;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
     }
     .machine{
         width: 355px;
+    }
+    .cm-links{
+        width: 530px;
+    }
+    .cm-img-tag{
+        width: 580px;
     }
 }
 
@@ -71,5 +93,14 @@
         width: 78%;
         border: 4pt solid #f27e10;
         height: 225px;
+    }
+    .cm-doctype-version{
+        height: 75px;
+    }   
+    .cm-sataurebi{
+        height: 110px;
+    } 
+    .cm-links{
+        overflow: auto;
     }
 }

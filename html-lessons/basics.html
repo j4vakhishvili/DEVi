@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="../assets/style/reklamebi.css">
     <link rel="stylesheet" href="../assets/style/html-gakvetilebi.css">
     <link rel="stylesheet" href="../assets/style/machines.css">
+    <style>
+        .code-machine{
+            float: none;
+        }
+    </style>
 </head>
 <body>
     <div class="navigation">
@@ -131,8 +136,78 @@
         <div class="content">
             <div class="space"></div>
             <!--Content Starts Here-->
-            
-            <!-- Content ends here -->
+            <div class="intro">
+                <p>ამ თავში შესაძლოა შეხვდე თაგებს, რომლებსაც მომავალ ლექციებში გაეცნობი!</p>
+            </div>
+            <p class="cont-title ce-step">HTML დოკუმენტები</p>
+            <p class="cont-desc">ყველა HTML დოკუმენტი აუცილებლად უნდა იწყებოდეს &lt;!DOCTYPE HTML&gt;-ით.</p>
+            <p class="cont-desc">თვითონ HTML დოკუმენტი იწყება &lt;html&gt; თაგით და სრულდება &lt;/html&gt;-ით.</p>
+            <p class="cont-desc">საიტის ხილული ნაწილი უკვე იწყება &lt;body&gt;-დან და სრულდება&lt;/body&gt;-ით.</p>
+            <div class="code-machine">
+                <xmp>
+<!DOCTYPE html>
+<html>
+<head>
+title>Page Title</title>
+</head>
+<body>
+                
+h1>My First Heading</h1>
+<p>My first paragraph.</p>
+                
+</body>
+</html>
+</xmp>
+                </div>
+                <p class="cont-title ce-step">რა არის &lt;!DOCTYPE&gt; ?</p>
+                <p class="cont-desc">&lt;!DOCTYPE&gt; თეგი, ბრაუზერს აწვდის ინფორმაციას დოკუმენტზე და ეხმარება ვებ გვერდის სწორად წარმოჩენაში.</p>
+                <p class="cont-desc">&lt;!DOCTYPE&gt; თეგი, HTML5-ის ვერსიაში არის:</p>
+                <div class="code-machine cm-doctype-version">
+<xmp>
+<!DOCTYPE html>
+</xmp>
+                </div>
+                <p class="cont-title ce-step">სათაურები</p>
+                <p class="cont-desc">HTML-ში სათაურები ძირითადად აღინიშნება &lt;h1&gt;-დან &lt;h6&gt;-მდე თეგებით.</p>
+                <p class="cont-desc">&lt;h1&gt; აღნიშნავს ყველაზე მთავარ სათაურს, ხოლო &lt;h6&gt; ყველაზე უმნიშვნელოს.</p>
+<div class="code-machine cm-sataurebi">
+<xmp>
+<h1> ეს არის სათაური 1 </h1>
+<h2> ეს არის სათაური 2 </h2>
+<h3> ეს არის სათაური 3 </h3>
+</xmp>
+</div>
+                <p class="cont-title ce-step">პარაგრაფები</p>
+                <p class="cont-desc">პარაგრაფები იწარმოება &lt;p&gt; თეგით.</p>
+<div class="code-machine cm-doctype-version">
+<xmp>
+<p> ეს არის პარაგრაფი. </p>
+</xmp>
+</div>
+                <p class="cont-title ce-step">ლინკები</p>
+                <p class="cont-desc">ლინკები იწარმოება &lt;a&gt; თეგით.</p>
+                <div class="code-machine cm-doctype-version cm-links">
+<xmp>
+<a href="https://www.devi.edu.ge/">ეს არის ლინკი</a>
+</xmp>
+</div>
+                <p class="cont-desc">ლინკების მისამართი იწერება <b>href</b> ატრიბუტში.</p>
+                <p class="cont-desc">ატრიბუტები HTML ელემენტების დამატებითი შესაძლებლობების გამოსაყენებლად იწარმოება.</p>
+                <p class="cont-desc">ატრიბუტების შესახებ უფრო ვრცლად შემდეგ პარაგრაფებში გაიგებ.</p>
+                <p class="cont-title ce-step">სურათები</p>
+                <p class="cont-desc">სურათები HTML-ში იწარმოება &lt;img&gt; თეგით.</p>
+                <p class="cont-desc">ლოკაცია<b>(src)</b>, შემცვლელი ტექსტი<b>(alt)</b> და ზომები სურათების ატრიბუტებია.</p>
+                <div class="code-machine cm-doctype-version cm-links cm-img-tag">
+<xmp>
+<img src="devi.png" alt="ლოგო" width="90" height="32">
+</xmp>
+</div>
+                <p class="cont-title ce-step">როგორ ვნახოთ, აგებული საიტის სტრუქტურა?</p>
+                <p class="cont-desc">ალბათ ყოფილა მომენტი, როცა შესულხარ საიტზე და გაგჩენია კითხვა თუ როგორ ააგეს ის?!</p>
+                <p class="cont-desc">შენ შეგიძლია გახსნა და წაიკითხო ნებისმიერი საიტის სტრუქტურა, შენი ბრაუზერიდანვე.</p>
+                <p class="cont-desc">ამისთვის უბრალოდ მაუსის მარჯვენა ღილაკზე ქლიქი და <b>Inspect</b>-ის არჩევაც საკმარისია.</p>
+                <img src="../assets/media/photo/inspect.png" alt="inspect" class="inspect">
+                <!-- Content ends here -->
             <footer>
                 <div class="ft-menu">
                     <a href="../about.html">ჩვენს შესახებ</a>

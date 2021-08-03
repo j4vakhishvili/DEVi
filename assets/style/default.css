@@ -25,20 +25,20 @@
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 5px;
   }
   
   ::-webkit-scrollbar-track {
-    background: #111111; 
+    background: transparent; 
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #2f2f2f;
+    background: transparent;
     border-radius: 30px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(78, 78, 78); 
+    background: #2f2f2f; 
   }
   
   ::selection {

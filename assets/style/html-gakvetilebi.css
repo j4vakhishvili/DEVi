@@ -221,6 +221,10 @@
     color: #dedede81;
 }
 
+.inspect{
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -276,6 +280,9 @@
         line-height: 30px;
         margin-top: 20px;
     }
+    .inspect{
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 1250px){
@@ -327,6 +334,9 @@
     }
     .quizes{
         width: 260px;
+    }
+    .inspect{
+        width: 265px;
     }
     .start-learning p, .intro p, .ce-code-editors p{
         font-size: 12px;
