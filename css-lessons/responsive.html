@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVi • დევი | გაცნობა</title>
+    <meta name="language" content="georgian">
+    <meta name="distribution" content="global">
+    <meta name="description" content="DEVi • დევი, პირველი ქართული, უფასო სასწავლო პლატფორმა ვებ დეველოპმენტის კუთხით">
+    <meta name="author" content="J4vakhishvili, T3MUR1">
+    <meta name="publisher" content="Github, J4vakhisvhili, T3MUR1">
+    <meta name="copyright" content="2021 J4vakhishvili">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Georgia, html, frontend, backend, 2021 - topic, color, web, webstore, learning aps, learning ap, fonts, creator studio, computrer network, tbilisi, batumi, sql, time, mobile, adapter, python, programming language, c#, c# programming language, 1080p, mozilla, qr code, qr, image, pixel, command, computer, sound, web browser, jpeg, port, interneti, bilaini, geocell, jeoseli, silknet, silqneti, magti, kobuleti, kakheti, kaxeti, tbilisi, qartli, internetis gadaxda, testing, 1v1 lol, vk, software, crack, software cracking, yandex, opera, google, reddit, telephone, academic degree, academy, university, child, w3schools, student, training, alphabet, elearning, edu aris ge, do it yourself, city, biletebi, ok.ru, bitcoin, universal, meaning, apkpure, school, school book, myhome, portable, portable network graphics, html, css, javascript, js, How to, PHP, Java, C++, jQuery, Bootstrap, C#, Colors, W3.CSS, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Courses, Lessons, References, Examples, Source code, Demos, Tips, rogor gavaketot saiti, rogor gavaketot saiti martivad, rogor gavaketot saiti ufasod, saitis gaketeba, saiti, როგორ გავაკეთოთ საიტი უფასოდ, საიტის გაკეთება, როგორ გავაკეთოთ საიტი მარტივად, ჰტმლ, ცსს, ჯავასკრიპტი, სკრიპტი, კოდი, ვებ-გვერდი, ვებ დიზაინი, ფრონტენდი, ბექენდი, სწავლა, საიტის გაკეთების სწავლა, Website, ინტერნეტი, ჯეოსელი, მაგთი, ბილაინი, სილქნეტი, webhost, ვებჰოსტი">
+    <link rel="icon" href="../assets/icons/site-icon.png">
+    <link rel="stylesheet" href="../assets/style/default.css">
+    <link rel="stylesheet" href="../assets/style/gk-header.css">
+    <link rel="stylesheet" href="../assets/style/lrn-footer.css">
+    <link rel="stylesheet" href="../assets/style/categories.css">
+    <link rel="stylesheet" href="../assets/style/gakvetilebi.css">
+    <link rel="stylesheet" href="../assets/style/css.css">
+    <link rel="stylesheet" href="../assets/style/reklamebi.css">
+</head>
+<body>
+    <div class="navigation">
+        <header>
+            <div class="container">
+                <a href="../index.html"><div class="logo"></div><p class="logo-text">&lt;/DEVi • დევი&gt;</p></a>
+                <ul>
+                    <li><a href="../gakvetilebi.html" class="active">გაკვეთილები</a></li>
+                    <li><a href="../video-lessons.html">ვიდეო გაკვეთილები</a></li>
+                    <li><a href="../savarjishoebi.html">სავარჯიშოები</a></li>
+                </ul>
+                <div class="menu-icon"><img src="../assets/icons/menu-icon.svg" class="icon" onclick="openMenu()"></div>
+                <div class="menu-icon"><img src="../assets/icons/veggie-burger-menu-icon.svg" class="icon" onclick="oMenu()"></div>
+                <div class="menu-icon"><div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div></div>
+            </div>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <a href="../gakvetilebi.html">HTML</a>
+                    <a href="../css.html" class="activated">CSS</a>
+                    <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div>
+                </div>
+                <div class="dark-mode">
+                    <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
+                    <div class="dark-mode-icon"></div>
+                </div>
+            </div>
+        </nav>
+        <div id="myMenU" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <div class="overlay-content">
+                <div class="container">
+                    <a href="../index.html">მთავარი</a>
+                    <a href="../gakvetilebi.html" style="color: #11a5ef;">გაკვეთილები</a>
+                    <a href="../video-lessons.html">ვიდეო გაკვეთილები</a>
+                    <a href="../savarjishoebi.html">სავარჯიშოები</a>
+                </div>
+            </div>
+          </div>
+          <div id="myCateg" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="cMenu()">&times;</a>
+            <div class="overlay-content">
+                <div class="container">
+                    <p>კატეგორიები</p>
+                    <a href="../gakvetilebi.html">HTML</a>
+                    <a href="../css.html" style="color: #11a5ef;">CSS</a>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოიძიე კატეგორია..." title="მოიძიე კატეგორია">
+                    <ul id="myUL">
+                        <li><a href="../css.html">შესავალი</a></li>
+                        <br><li><a href="introduction.html">გაცნობა</a></li>
+                        <br><li><a href="syntax.html">სინტაქსი</a></li>
+                        <br><li><a href="selectors.html">სელექტორები</a></li>
+                        <br><li><a href="html-to-link.html">HTML-ზე მიბმა</a></li>
+                        <br><li><a href="comments.html">კომენტარები</a></li>
+                        <br><li><a href="colors.html">ფერები</a></li>
+                        <br><li><a href="backgrounds.html">ფონები</a></li>
+                        <br><li><a href="borders.html">საზღვრები</a></li>
+                        <br><li><a href="margins.html">მიჯვნები</a></li>
+                        <br><li><a href="paddings.html">შევსება</a></li>
+                        <br><li><a href="width-and-height.html">სიმაღლე და სიგანე</a></li><!--შეიცავს Max Width სექციას-->
+                        <br><li><a href="box-model.html">ბლოკის მოდელი</a></li>
+                        <br><li><a href="outline.html">მონახაზი</a></li>
+                        <br><li><a href="texts.html">ტექსტები</a></li>
+                        <br><li><a href="fonts.html">ფონტები</a></li>
+                        <br><li><a href="css-links.html">CSS ლინკები</a></li>
+                        <br><li><a href="lists.html">სიები</a></li>
+                        <br><li><a href="tables.html">ცხრილები</a></li>
+                        <br><li><a href="display.html">ჩვენება</a></li>
+                        <br><li><a href="position.html">პოზიცია</a></li>
+                        <br><li><a href="overflow.html">გადავსება</a></li>
+                        <br><li><a href="float.html">წყობა</a></li>
+                        <br><li><a href="layout .html">მწკრივები</a></li>
+                        <br><li><a href="combinators.html">კომბინატორები</a></li>
+                        <br><li><a href="pseudo-class.html">ფსევდო-კლასები</a></li>
+                        <br><li><a href="pseudo-elements.html">ფსევდო-ელემენტები</a></li>
+                        <br><li><a href="opacity.html">გამჭირვალობა</a></li>
+                        <br><li><a href="nav-bar.html">ნავიგაციის ზოლი</a></li>
+                        <br><li><a href="dropdowns.html">Dropdowns</a></li>
+                        <br><li><a href="img-gallery.html">ფოტო გალერეა</a></li>
+                        <br><li><a href="img-sprites.html">ფოტო სპრიტები</a></li>
+                        <br><li><a href="attr-selectors.html">ატრიბუტების არჩევა</a></li>
+                        <br><li><a href="forms.html">ფორმები</a></li>
+                        <br><li><a href="web-layout.html">საიტის სტრუქტურა</a></li>
+                        <br><li><a href="units.html">ერთეულები</a></li>
+                        <br><li><a href="hierarchy.html">იერარქია</a></li>
+                        <br><li><a href="!important.html">!important</a></li>
+                        <br><li><a href="corners.html">კუთხეები</a></li>
+                        <br><li><a href="border-images.html">ფოტოები საზღვრებზე</a></li>
+                        <br><li><a href="multy-bgs.html">რამდენიმე ფონი</a></li>
+                        <br><li><a href="gradient.html">გრადაცია</a></li>
+                        <br><li><a href="shadows.html">ჩრდილები</a></li>
+                        <br><li><a href="txt-effects.html">ტექსტ ეფექტები</a></li>
+                        <br><li><a href="transforms.html">გარდაქმნები</a></li>
+                        <br><li><a href="transitions.html">გადასვლები</a></li>
+                        <br><li><a href="animations.html">ანიმაციები</a></li>
+                        <br><li><a href="tooltips.html">მითითებები</a></li>
+                        <br><li><a href="image-styles.html">ფოტოების სტილიზაცია</a></li>
+                        <br><li><a href="object-fit.html">ობიექტის მორგება</a></li>
+                        <br><li><a href="buttons.html">ღილაკები</a></li>
+                        <br><li><a href="columns.html">სვეტები</a></li>
+                        <br><li><a href="variables.html">ცვლადები</a></li>
+                        <br><li><a href="media-commands.html">media ბრძანებები</a></li>
+                        <br><li><a href="media-examples.html">media მაგალითები</a></li>
+                        <br><li><a href="flexbox.html">Flexbox</a></li>
+                        <br><li><a href="responsive.html">რესფონსივი</a></li>
+                        <div class="space"></div>
+                    </ul>
+    </div>
+    <div class="freespace"></div>
+    <!--სარეკლამო სივრცე-->
+    <div class="xtkpiq45ulaey">
+        <div class="wxkejt6l0 wxkejt6l0-cover1"><iframe src="https://discord.com/widget?id=869528540234805248&theme=dark" width="260" height="480" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="discord"></iframe></div>
+        <div class="wxkejt6l0 wxkejt6l0-cover2"></div>
+    </div>
+    <!--სარეკლამო სივრცის დასასრული-->
+    <div class="container">
+        <div class="main-head">
+            <button class="gobtn prev" onclick="window.history.back()"><img src="../assets/icons/next-perv-btn-icon.svg"></button>
+            <h1 class="title">გაცნობა</h1>
+            <button class="gobtn next" onclick="window.location.href='introduction.html'"><img src="../assets/icons/next-perv-btn-icon.svg"></button>
+        </div>
+        <div class="content">
+            <div class="space"></div>
+            <!--Content Starts Here-->
+
+            <!-- Content ends here -->
+            <footer>
+                <div class="ft-menu">
+                    <a href="../about.html">ჩვენს შესახებ</a>
+                    <a href="../privacy-policy.html">წესდება და პოლიტიკა</a>
+                    <a href="../reklama.html">რეკლამის განთავსება</a>
+                </div>
+                <div class="rights">
+                    <a>2021 © ყველა უფლება დაცულია</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="../assets/script/darkmode.js"></script>
+    <script src="../assets/script/menu.js"></script>
+    <script src="../assets/script/categories.js"></script>
+</body>
+</html>
