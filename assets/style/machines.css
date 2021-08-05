@@ -6,6 +6,7 @@
     border-radius: 25px;
     margin-top: 20px;
     float: left;
+    overflow: auto;
 }
 
 .code-machine xmp{
@@ -99,8 +100,5 @@
     }   
     .cm-sataurebi{
         height: 110px;
-    } 
-    .cm-links{
-        overflow: auto;
     }
 }
