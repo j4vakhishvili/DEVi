@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Code Editor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style/default.css">
+    <link rel="stylesheet" href="assets/style/gk-header.css">
+    <link rel="stylesheet" href="assets/style/code-editor.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+  </head>
+
+  <body>
+    <div class="navigation">
+      <header>
+          <div class="container">
+              <a href="index.html"><div class="logo"></div><p class="logo-text">&lt;/DEVi • დევი&gt;</p></a>
+              <ul>
+                  <li><a href="gakvetilebi.html">გაკვეთილები</a></li>
+                  <li><a href="video-lessons.html">ვიდეო გაკვეთილები</a></li>
+                  <li><a href="savarjishoebi.html">სავარჯიშოები</a></li>
+                  <li><a href="savarjishoebi.html" class="active">კოდედიტორი</a></li>
+              </ul>
+              <div class="menu-icon"><img src="assets/icons/menu-icon.svg" class="icon" onclick="openMenu()"></div>
+          </div>
+      </header>
+      <div id="myMenU" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+          <div class="overlay-content">
+              <div class="container">
+                  <a href="index.html">მთავარი</a>
+                  <a href="gakvetilebi.html">გაკვეთილები</a>
+                  <a href="video-lessons.html">ვიდეო გაკვეთილები</a>
+                  <a href="savarjishoebi.html">სავარჯიშოები</a>
+                  <a href="savarjishoebi.html" style="color: #4711ef;">კოდედიტორი</a>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="blank"></div>
+    <div class="container">
+      <textarea id="html" placeholder="HTML"></textarea>
+      <textarea id="css" placeholder="CSS"></textarea>
+      <textarea id="js" placeholder="JavaScript"></textarea>
+      <iframe id="code"></iframe>
+      <footer>
+        <div class="dark-mode">
+            <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
+        </div>
+        <p class="darkmtxt">DarkMode</p>
+        <a href="https://www.j4va.tk/" class="partner" target="_blank"><img src="assets/icons/partner-logo.svg"></a>
+        <div class="ft-menu">
+            <a href="about.html" class="aboutus">ჩვენს შესახებ</a>
+            <a href="privacy-policy.html" class="aboutus">წესდება და პოლიტიკა</a>
+            <a href="reklama.html" class="aboutus">რეკლამის განთავსება</a>
+        </div>
+        <div class="rights">
+            <a>2021 © ყველა უფლება დაცულია</a>
+        </div>
+    </footer>
+    </div>
+
+    <script type="text/javascript" src="assets/script/app.js"></script>
+    <script type="text/javascript" src="assets/script/darkmode.js"></script>
+    <script src="assets/script/menu.js"></script>
+  </body>
+</html>
