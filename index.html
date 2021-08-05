@@ -21,18 +21,33 @@
         <source src="assets/media/video/bg.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-    <div class="content">
-        <div class="inside-content">
-            <center><div class="devi-logo"></div>
-            <h1 class="devi-text">&lt;/DEVi • დევი&gt;</h1></center>
-            <a href="gakvetilebi.html" class="startmenu">გაკვეთილები</a>
-            <a href="video-lessons.html" class="startmenu">ვიდეო გაკვეთილები</a>
-            <a href="savarjishoebi.html" class="startmenu">სავარჯიშოები</a>
+    <div class="top">
+        <div class="container">
+            <div class="btns red" onclick="window.close();"></div>
+            <div class="btns yellow"></div>
+            <div class="btns green"></div>
         </div>
-        <footer>
-            <a href="about.html" class="aboutlink">ჩვენს შესახებ</a>
-            <a href="https://www.j4va.tk/" class="partner" target="_blank"><img src="assets/icons/partner-logo.svg"></a>
-        </footer>
     </div>
+    <div class="content">
+        <div class="container">
+            <div class="position1">
+                <h1>&lt;/DEVi • დევი&gt;</h1>
+                <button class="btn" onclick="window.location.href='#'"><div class="icon ce"></div><p>CODE EDITOR</p><a>Live</a></button>
+                <button class="btn" onclick="window.location.href='gakvetilebi.html'"><div class="icon lessons"></div><p>გაკვეთლები</p></button>
+                <button class="btn" onclick="window.location.href='video-lessons.html'"><div class="icon vlessons"></div><p>ვიდეო გაკვეთილები</p></button>
+                <button class="btn" onclick="window.location.href='savarjishoebi.html'"><div class="icon exercise"></div><p>სავარჯიშოები</p></button>
+            </div>
+            <div class="position2">
+                <img src="assets/icons/logo-mad.svg" alt="devi logo დევი" class="logo">
+                <button class="socialbtn" onclick="window.location.href='#'"><div class="icon yt"></div></button>
+                <button class="socialbtn" onclick="window.location.href='#'"><div class="icon fb"></div></button>
+                <button class="socialbtn" onclick="window.location.href='#'"><div class="icon ig"></div></button>
+                <a href="https://discord.gg/wKS6axAK23" target="_blank"><button class="socialbtn"><div class="icon dc"></div></button></a>
+                <button class="socialbtn" onclick="window.location.href='about.html'"><div class="icon about"></div></button>
+                <button class="socialbtn nm"><div class="icon dm"><input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა"></div></button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script/darkmode.js"></script>
 </body>
 </html>
