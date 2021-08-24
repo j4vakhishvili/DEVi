@@ -163,7 +163,80 @@
                     <td><i>არ აქვს</i></td>
                     <td><i>არ აქვს</i></td>
                 </tr>
-              </table>
+            </table>
+            <br>
+            <div class="intro ce-vscode">
+                <p><b>მინიშნება:ㅤ</b>ზოგიერთ HTML ელემენტს კონტენტი არ აქვსㅤ(მაგ.&lt;br&gt;)ㅤასეთ ელემენტებს არ აქვს დახურვის ტეგი!</p>
+            </div>
+            <p class="cont-title ce-step">მშობელი HTML ელემენტები</p>
+            <p class="cont-desc">HTML ელემენტი შესაძლოა მშობელი იყოს.(ეს ნიშნავს, რომ ელემენტი შესაძლოა შეიცავდეს სხვა ელემენტებს).</p>
+            <p class="cont-desc">ყველა HTML დოკუმენტი შეიცავს მშობელ HTML ელემენტს.</p>
+            <p class="cont-desc">მოცემული მაგალითი გულისხმობს, რომ შეიცავს ოთხ HTML ელემენტს (&lt;html&gt; &lt;body&gt; &lt;h1&gt; და &lt;p&gt;).</p>
+            
+            <div class="code-machine-example-background">
+                <p class="cont-title ce-step cm-e">მაგალითი</p>
+            </div>
+            <div class="code-machine codemachine">
+<xmp>
+<!DOCTYPE html>
+<html>
+<head>
+title>Page Title</title>
+</head>
+<body>
+                
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+                
+</body>
+</html>
+</xmp>
+                </div>
+            <p class="cont-title ce-step">მაგალითის ახსნა</p>
+            <p class="cont-desc">&lt;html&gt; ელემენტი საწყისი ელემენტია და მთელ HTML დოკუმენტს აწარმოებს.</p>
+            <p class="cont-desc">მას აქვს გამხსნელი თეგი &lt;html&gt; და დამხურავი თეგი &lt;/html&gt;.</p>
+            <p class="cont-desc">მაშასადამე &lt;html&gt; თეგის შიგნით მდებარეობს &lt;body&gt; ელემენტი.</p>
+            <div class="code-machine codemachine cm">
+<xmp>
+<body>
+                
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+                
+</body>
+</xmp>
+            </div>
+            <p class="cont-desc">&lt;body&gt; ელემენტი აწარმოებს დოკუმენტის ტანს.</p>
+            <p class="cont-desc">მას აქვს გამხსნელი თეგი &lt;body&gt; და დამხურავი თეგი &lt;/body&gt;.</p>
+            <p class="cont-desc">მაშასადამე &lt;html&gt; თეგის შიგნით მდებარეობს ორი განსხვავებული ელემენტი &lt;h1&gt; და &lt;p&gt;.</p>
+            <div class="code-machine codemachine cm">
+<xmp>
+
+                
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+                
+
+</xmp>
+            </div>
+            <p class="cont-desc">&lt;h1&gt; ელემენტი წარმოადგენს სათაურს.</p>
+            <p class="cont-desc">მას აქვს გამხსნელი თეგი &lt;h1&gt; და დამხურავი თეგი &lt;/h1&gt;.</p>
+            <p class="cont-desc">&lt;p&gt; წარმოადგენს პარაგრაფს.</p>
+            <p class="cont-desc">მას აქვს გამხსნელი თეგი &lt;p&gt; და დამხურავი თეგი &lt;/p&gt;.</p>
+            
+            <p class="cont-title ce-step">არასდროს გამოტოვო დამხურავი თეგი!</p>
+            <p class="cont-desc">ზოგიერთ ელემენტს შესაძლოა მაინც გამოჰქონდეს სწორი გამოსახულება, მიუხედავად იმისა თუ არ დახურავთ ელემენტს: </p>
+            <div class="code-machine codemachine cm">
+<xmp>
+<body>
+                
+<p>My first paragraph
+<p>My first paragraph
+                
+</body>
+</xmp>
+            </div>
+            <p class="cont-desc"><b>მაგრამ ეს არ ნიშნავს იმას, რომ მათი ასე დატოვება ოდესმე არ გამოიწვევს ერორებს ან გაფრთხილებებს!</b></p>
             <!-- Content ends here -->
             <footer>
                 <div class="ft-menu">
