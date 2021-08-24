@@ -14,7 +14,7 @@ header{
 .logo {
     width: 75px;
     height: 75px;
-    background: transparent url(../icons/logo-mad.svg);
+    background: transparent url(../icons/logo.svg);
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;

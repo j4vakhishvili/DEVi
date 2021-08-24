@@ -315,7 +315,7 @@ h1{
         display: inline-block;
     }
     .nm{
-        height: 100px;
+        height: 70px;
         float: right;
     }
     .position1 {
@@ -323,6 +323,15 @@ h1{
     }
     .btn {
         width: 100%;
+    }
+    #darkSwitch {
+        width: 64px;
+        height: 64px;
+        margin-left: -18px;
+        margin-top: -20px;
+    }
+    .dm {
+        margin-top: 20px;
     }
 }
 
