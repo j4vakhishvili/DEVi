@@ -260,6 +260,48 @@ h1{
     transition: 0.3s;
 }
 
+@media only screen and (max-width: 1550px){
+    .logo {
+        width: 100px;
+        margin-top: 20px;
+    }
+    .socialbtn {
+        width: 100px;
+        height: 70px;
+        margin-top: 8px;
+    }
+    .logo {
+        width: 100px;
+        margin-top: 50px;
+    }
+    .nm {
+        height: 54px;
+    }
+    #darkSwitch {
+        width: 54px;
+        height: 54px;
+        margin-left: -14px;
+        margin-top: -10px;
+    }
+    .icon {
+        width: 26px;
+        height: 26px;
+    }
+    .dm{
+        margin-top: 9px;
+    }
+    h1{
+        margin-top: 85px;
+    }
+    .btn{
+        height: 98px;
+    }
+    .btn p{
+        padding: 25px 0px;
+        font-size: 34px;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
     .logo{
         display: none;
