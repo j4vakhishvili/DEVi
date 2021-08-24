@@ -225,6 +225,31 @@
     border-radius: 10px;
 }
 
+.tagname{
+    color: #00987c;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bog-Caps', sans-serif;
+    line-height: 50px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.tagcontent{
+    color: #181818;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bog-Caps', sans-serif;
+    line-height: 50px;
+    display: inline-block;
+}
+
+[data-theme="dark"] .tagcontent{
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -393,5 +418,8 @@
     }
     .ce-notepad-med, .ce-save-notepad-tab{
         display: none;
+    }
+    .tagname, .tagcontent{
+        font-size: 10px;
     }
 }
