@@ -76,6 +76,21 @@
     margin-top: 20px;
 }
 
+.cm3{
+    border-radius: 25px;
+    height: 90px;
+    margin-top: 20px;
+    width: 565px;
+}
+
+.m-inline{
+    margin-left: 0;
+    float: none;
+    display: inline-block;
+    width: 525px;
+    margin-bottom: 0 !important;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
@@ -151,8 +166,11 @@
     .cm{
         height: 160px;
     }
-    .cm2{
+    .cm2, .cm3{
         height: 75px;
         width: 94%;
+    }
+    .m-inline{
+        height: 270px;
     }
 }

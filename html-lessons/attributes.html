@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -132,10 +132,75 @@
         <div class="content">
             <div class="space"></div>
             <!--Content Starts Here-->
-            
+            <div class="intro">
+                <p>HTML ატრიბუტები იძლევა დამატებით ინფორმაციას HTML ელემენტების შესახებ.</p>
+            </div>
+            <div class="what-is-html">
+                <p class="cont-title">HTML ატრიბუტები</p>
+                <ul>
+                    <li>ყველა HTML შესაძლოა ჰქონდეს ატრიბუტები</li>
+                    <li>ატრიბუტები იძლევა დამატებით ინფორმაციას ელემენტების შესახებ</li>
+                    <li>ატრიბუტები ყოველთვის მითითებულია საწყის ტეგში</li>
+                    <li>ატრიბუტები როგორც წესი იწარმოება მსგავსად: სახელი="მნიშვნნელობა"</li>
+                </ul>
+            </div>
+
+            <p class="cont-title">ატრიბუტი - href</p>
+            <p class="cont-desc contdescinline">&lt;a&gt; თეგი აწარმოებს ლინკებს.</p><p class="tagname cont-tagname">‎‎‏‏‎ ‎href‏‏‎ ‎</p><p class="cont-desc contdescinline">ატრიბუტი წარმოადგენს URL-ს რომელიც გადადის მითითებულ ლინკზე.</p>
+            <div class="code-machine codemachine cm3">
+<xmp>         
+<a href="https://www.devi.edu.ge/">შეუერთდი DEVi-ს</a>
+</xmp>
+            </div>
+            <p class="cont-desc">ლინკებზე მეტის გასაგებათ ეწვიეთ <a href="links.html" class="cont-link">ამ გვერდს</a></p>
+            <br><br>
+            <p class="cont-title">ატრიბუტი - src</p>
+            <p class="cont-desc contdescinline">&lt;img&gt; თეგი გამოიყენება ფოტოების HTML გვერდზე გამოსატანად.</p><p class="tagname cont-tagname">‎‎‏‏‎ ‎src‏‏‎ ‎</p><p class="cont-desc contdescinline">ატრიბუტი აწვდის ადგილის რომელიც მითითებულია სურათის გამოსატანად.</p>
+            <div class="code-machine codemachine cm3">
+<xmp>         
+<img src="image.png">
+</xmp>
+            </div>
+            <p class="cont-desc contdescinline">მხოლოდ ორი გზაა, რათა ლინკების მიწოდება მოხდეს</p><p class="tagname cont-tagname">‎‎‏‏‎ ‎src‏‏‎ ‎</p><p class="cont-desc contdescinline">ატრიბუტის მეშვეობით:</p>
+            <p class="cont-desc"><b>1. ბმულის სახით</b> - ლინკების მეშვეობით, რომლებიც მოწოდებულია რომელიმე სხვა ვებსაიტიდან. (მაგ.: src="https://www.devi.edu.ge/image.png/")</p>
+            <p class="cont-desc"><b class="tabletitle">შენიშვნა: </b> საიტის გარედან შემოტანილი ფოტოები შესაძლოა შეიცავდეს საავტორო უფლებებს, თუ თქვენ არ ფლობს საავტორო უფლებებს შესაძლოა შეგექმნათ კანონთან არსებული პრობლემები. <br>ამავდროულად გაითვალისწინეთ, რომ თქვენ არ შეგიძლიათ მათი კონტროლი, არსებული ფოტოები შესაძლოა მათი სერვერებიდან წაიშალოს ან შეიცვალოს.</p>
+            <p class="cont-desc"><b>2. შიდა ფაილის სახით</b> - მსგავის ტიპის სურათები საიტთან ერთად გაეშვება ონლაინში, შესაბამისად სურათს არ სჭირდება საიტის მისამართი, იგი პირდაპირ თქვენი ფაილებიდან ინლინკება. მაგალითად: src="image.png", თუ კი ფოტო სხვა ფაილში გაქვთ ამისთვის დაგჭირდებათ ფაილის არჩევა. მაგალითად: src="assets/image.png"</p>
+            <p class="cont-desc"><b class="tabletitle">შენიშვნა: </b> საუკეთესო ვარიანტია როდესაც ფოტოების საიტზე განთავსება <b>შიდა ფაილის სახით</b> ხდება, ვინაიდან მსგავს სიტუაციაში, ფოტო არასდროს წაიშლება, მაშინაც კი, თუ საიტი შეიცვლის მისამართს.</p>
+            <br><br>
+            <p class="cont-title">სიგრძის და სიმაღლის ატრიბუტები</p>
+            <p class="cont-desc contdescinline">&lt;img&gt; თეგი ასევე შესაძლოა შეიცავდეს </p><p class="tagname cont-tagname">‎‎‏‏‎ width ‎</p><p class="cont-desc contdescinline">‎‎‏‏‎ ‎და‏‏‎ ‎</p><p class="tagname cont-tagname">‎‎‏‏‎ height ‎</p><p class="cont-desc contdescinline">ატრიბუტებს, რომლებიც სურათს ანიჭებენ სიგრძეს და სიმაღლეს (პიქსელებში).</p>
+            <div class="code-machine codemachine cm3">
+<xmp>         
+<img src="image.png" width="600" height="400">
+</xmp>
+            </div>
+            <br><br>
+            <p class="cont-title">ატრიბუტი - alt</p>
+            <div class="alt-text"><p class="cont-desc contdescinline">&lt;img&gt; თეგისთვის </p><p class="tagname cont-tagname">‎‎‏‏‎ alt ‎</p><p class="cont-desc contdescinline">ატრიბუტი გამოიყენება მაშინ როდესაც ფოტო რაღაც მიზეზების გამო არ გამოისახება, ეს შესაძლოა გამოწვეული იყოს დაბალი ინტერნეტის კავშირის გამო ან არასწორად მითითებული ფაილის ლოკაციიდან გამომდინარე.</p></div>
+            <div class="code-machine codemachine cm3">
+<xmp>         
+<img src="image.png" alt="სატესტო ფოტოსურათი">
+</xmp>
+            </div>
+            <div class="machine m-inline">
+                <p>ასე გამოიყურება სურათი სწორი მისამართით</p>
+                <img src="../assets/media/photo/image.png" alt="სატესტო ფოტოსურათი" class="cont-testimg">
+                <p>ასე გამოიყურება სურათი არასწორი მისამართით</p>
+                <img src="../assets/media/photo/imagee.png" alt="სატესტო ფოტოსურათი" class="cont-testimg">
+            </div>
+            <p class="cont-desc">სურათებზე მეტის გასაგებათ ეწვიეთ <a href="links.html" class="cont-link">ამ გვერდს</a></p>
+            <br><br>
+            <p class="cont-title">სიგრძის და სიმაღლის ატრიბუტები</p>
+            <p class="cont-desc contdescinline">&lt;img&gt; თეგი ასევე შესაძლოა შეიცავდეს </p><p class="tagname cont-tagname">‎‎‏‏‎ width ‎</p><p class="cont-desc contdescinline">‎‎‏‏‎ ‎და‏‏‎ ‎</p><p class="tagname cont-tagname">‎‎‏‏‎ height ‎</p><p class="cont-desc contdescinline">ატრიბუტებს, რომლებიც სურათს ანიჭებენ სიგრძეს და სიმაღლეს (პიქსელებში).</p>
+            <div class="code-machine codemachine cm3">
+<xmp>         
+<p style="color:red;">ეს წითელი პარაგრაფია.</p>
+</xmp>
+            </div>
+            <p class="cont-desc">სტილებზე მეტის გასაგებათ ეწვიეთ <a href="links.html" class="cont-link">ამ გვერდს</a></p>
             <!-- Content ends here -->
             <footer>
-                <div class="ft-menu">
+                <div class="ft-menu">   
                     <a href="../about.html">ჩვენს შესახებ</a>
                     <a href="../privacy-policy.html">წესდება და პოლიტიკა</a>
                     <a href="../reklama.html">რეკლამის განთავსება</a>

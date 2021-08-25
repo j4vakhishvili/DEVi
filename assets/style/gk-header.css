@@ -133,7 +133,11 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     filter: invert(1);
-    transition: 0.3s;
+}
+
+[data-theme="dark"] .dark-mode{
+    background: url(../icons/light-mode-icon.svg);
+
 }
 
 #darkSwitch {

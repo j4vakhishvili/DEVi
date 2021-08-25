@@ -140,6 +140,7 @@
     padding: 0;
     font-family: 'Bog', sans-serif;
     line-height: 50px;
+    width: 1450px;
 }
 
 .what-is-html ul, .magalitis-axsna ul{
@@ -298,6 +299,31 @@ tr:nth-child(even) {
     background-color: #e0740e47;
 }
 
+.contdescinline{
+    display: inline-block;
+    width: auto !important;
+    line-height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.cont-tagname{
+    font-size: 18px !important;
+}
+
+.cont-link{
+    color:#e0740e;
+}
+
+.cont-testimg{
+    width: 100px;
+    height: auto;
+}
+
+.alt-text{
+    width: 1400px;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -311,6 +337,9 @@ tr:nth-child(even) {
     }
     table {
         width: 1150px;
+    }
+    .cont-desc{
+        width: 1200px;
     }
 }
 
@@ -492,5 +521,8 @@ tr:nth-child(even) {
     }
     td, th {
         font-size: 10px;
+    }
+    .cont-tagname{
+        font-size: 14px !important;
     }
 }
