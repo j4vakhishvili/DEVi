@@ -338,7 +338,7 @@ tr:nth-child(even) {
     table {
         width: 1150px;
     }
-    .cont-desc{
+    .cont-desc, .alt-text{
         width: 1200px;
     }
 }
@@ -362,6 +362,9 @@ tr:nth-child(even) {
     }
     table {
         width: 900px;
+    }
+    .alt-text{
+        width: 1000px;
     }
 }
 
@@ -393,6 +396,9 @@ tr:nth-child(even) {
     }
     table {
         width: 800px;
+    }
+    .alt-text{
+        width: 900px;
     }
 }
 
@@ -429,6 +435,9 @@ tr:nth-child(even) {
         margin-top: 15px;
     }
     table {
+        width: 100%;
+    }
+    .alt-text{
         width: 100%;
     }
 }
@@ -524,5 +533,8 @@ tr:nth-child(even) {
     }
     .cont-tagname{
         font-size: 14px !important;
+    }
+    .alt-text{
+        width: 100%;
     }
 }
