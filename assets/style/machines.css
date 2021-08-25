@@ -70,6 +70,12 @@
     margin-top: 20px;
 }
 
+.cm2{
+    border-radius: 25px;
+    height: 90px;
+    margin-top: 20px;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
@@ -82,6 +88,9 @@
     }
     .cm-img-tag{
         width: 580px;
+    }
+    .cm2{
+        width: 490px;
     }
 }
 
@@ -141,5 +150,9 @@
     }
     .cm{
         height: 160px;
+    }
+    .cm2{
+        height: 75px;
+        width: 94%;
     }
 }
