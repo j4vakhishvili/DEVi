@@ -11,6 +11,11 @@
     transition: 0.3s;
 }
 
+[data-theme="dark"] .active:hover{
+    color: #f27e10;
+    transition: 0.3s;
+}
+
 nav{
     background: #f27e10;
     width: 100%;
