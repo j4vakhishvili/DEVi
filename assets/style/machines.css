@@ -91,6 +91,15 @@
     margin-bottom: 0 !important;
 }
 
+.cm-headings{
+    height: 195px;
+}
+
+.m-headings{
+    height: 280px;
+    width: 450px;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
@@ -172,5 +181,11 @@
     }
     .m-inline{
         height: 270px;
+    }
+    .cm-headings{
+        height: 155px;
+    }
+    .m-inline {
+        height: 315px;
     }
 }

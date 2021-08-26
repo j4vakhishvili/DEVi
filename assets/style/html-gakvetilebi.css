@@ -328,6 +328,11 @@ tr:nth-child(even) {
     padding-left: 0;
 }
 
+.note-headings p{
+    padding-top: 8px;
+    line-height: 25px;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -344,6 +349,9 @@ tr:nth-child(even) {
     }
     .cont-desc, .alt-text{
         width: 1200px;
+    }
+    .note-headings p{
+        padding-top: 0px;
     }
 }
 
@@ -369,6 +377,10 @@ tr:nth-child(even) {
     }
     .alt-text{
         width: 1000px;
+    }
+    .note-headings p{
+        padding-top: 0px;
+        line-height: 1.3;
     }
 }
 
@@ -403,6 +415,10 @@ tr:nth-child(even) {
     }
     .alt-text{
         width: 900px;
+    }
+    .note-headings p{
+        padding-top: 0px;
+        line-height: 1.3;
     }
 }
 
@@ -443,6 +459,10 @@ tr:nth-child(even) {
     }
     .alt-text{
         width: 100%;
+    }
+    .note-headings p{
+        padding-top: 0px;
+        line-height: 1.3;
     }
 }
 
@@ -540,5 +560,9 @@ tr:nth-child(even) {
     }
     .alt-text{
         width: 100%;
+    }
+    .note-headings p{
+        padding-top: 0px;
+        line-height: 1.3;
     }
 }
