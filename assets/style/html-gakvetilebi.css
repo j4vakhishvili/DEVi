@@ -324,6 +324,10 @@ tr:nth-child(even) {
     width: 1400px;
 }
 
+.w-is-html{
+    padding-left: 0;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
