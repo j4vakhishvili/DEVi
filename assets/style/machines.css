@@ -100,6 +100,14 @@
     width: 450px;
 }
 
+.cm4{
+    width: 670px;
+}
+
+.m4{
+    width: 632px;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
@@ -115,6 +123,12 @@
     }
     .cm2{
         width: 490px;
+    }
+    .cm4{
+        width: 660px;
+    }
+    .m4{
+        width: 622px;
     }
 }
 
@@ -187,5 +201,8 @@
     }
     .m-inline {
         height: 315px;
+    }
+    .paragraphs-pre{
+        width: 270px;
     }
 }
