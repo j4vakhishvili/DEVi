@@ -108,6 +108,15 @@
     width: 632px;
 }
 
+.cm5{
+    width: 814px;
+}
+
+.m5{
+    width: 774px;
+    height: 120px;
+}
+
 @media only screen and (max-width: 1550px){
     .code-machine{
         width: 395px;
@@ -130,6 +139,13 @@
     .m4{
         width: 622px;
     }
+    .cm5 {
+        width: 814px;
+    }
+    .m5{
+        width: 774px;
+        height: 120px;
+    }   
 }
 
 @media only screen and (max-width: 1450px){
@@ -144,6 +160,13 @@
     .code-machine-example-background {
         width: 635px;
         margin-bottom: 0px !important;
+    }
+    .cm5 {
+        width: 814px;
+    }
+    .m5{
+        width: 774px;
+        height: 120px;
     }
 }
 
@@ -205,5 +228,8 @@
     .paragraphs-pre{
         width: 270px;
         font-size: 14px;
+    }
+    .m5{
+        height: 70px;
     }
 }
