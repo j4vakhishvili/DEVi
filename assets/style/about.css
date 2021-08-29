@@ -178,6 +178,7 @@ header{
     display: inline-block;
     border-radius: 20px;
     margin-top: 25px;
+    cursor: pointer;
 }
 
 [data-theme="dark"] .social-icon{
