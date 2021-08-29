@@ -294,6 +294,11 @@ header{
     .social {
         width: 64%;
     }
+    .icon{
+        width: 45px;
+        height: 45px;
+        margin: 22px;
+    }
 }
 
 @media only screen and (max-width: 750px) {
