@@ -333,6 +333,12 @@ tr:nth-child(even) {
     line-height: 25px;
 }
 
+a.cont-desc{
+    padding: 20px;
+    color: black !important;
+    border-radius: 4px;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -381,6 +387,10 @@ tr:nth-child(even) {
     .note-headings p{
         padding-top: 0px;
         line-height: 1.3;
+    }
+    a.cont-desc {
+        line-height: 60px;
+        padding: 15px;
     }
 }
 
@@ -564,5 +574,8 @@ tr:nth-child(even) {
     .note-headings p{
         padding-top: 0px;
         line-height: 1.3;
+    }
+    a.cont-desc {
+        line-height: 52px;
     }
 }
