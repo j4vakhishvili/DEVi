@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVi • დევი | ფერები</title>
+    <meta name="language" content="georgian">
+    <meta name="distribution" content="global">
+    <meta name="description" content="DEVi • დევი, პირველი ქართული, უფასო სასწავლო პლატფორმა ვებ დეველოპმენტის კუთხით">
+    <meta name="author" content="J4vakhishvili, T3MUR1">
+    <meta name="publisher" content="Github, J4vakhisvhili, T3MUR1">
+    <meta name="copyright" content="2021 J4vakhishvili">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Georgia, html, frontend, backend, 2021 - topic, color, web, webstore, learning aps, learning ap, fonts, creator studio, computrer network, tbilisi, batumi, sql, time, mobile, adapter, python, programming language, c#, c# programming language, 1080p, mozilla, qr code, qr, image, pixel, command, computer, sound, web browser, jpeg, port, interneti, bilaini, geocell, jeoseli, silknet, silqneti, magti, kobuleti, kakheti, kaxeti, tbilisi, qartli, internetis gadaxda, testing, 1v1 lol, vk, software, crack, software cracking, yandex, opera, google, reddit, telephone, academic degree, academy, university, child, w3schools, student, training, alphabet, elearning, edu aris ge, do it yourself, city, biletebi, ok.ru, bitcoin, universal, meaning, apkpure, school, school book, myhome, portable, portable network graphics, html, css, javascript, js, How to, PHP, Java, C++, jQuery, Bootstrap, C#, Colors, W3.CSS, XML, MySQL, Icons, NodeJS, React, Graphics, Angular, R, AI, Git, Data Science, Code Game, Tutorials, Programming, Web Development, Training, Learning, Quiz, Courses, Lessons, References, Examples, Source code, Demos, Tips, rogor gavaketot saiti, rogor gavaketot saiti martivad, rogor gavaketot saiti ufasod, saitis gaketeba, saiti, როგორ გავაკეთოთ საიტი უფასოდ, საიტის გაკეთება, როგორ გავაკეთოთ საიტი მარტივად, ჰტმლ, ცსს, ჯავასკრიპტი, სკრიპტი, კოდი, ვებ-გვერდი, ვებ დიზაინი, ფრონტენდი, ბექენდი, სწავლა, საიტის გაკეთების სწავლა, Website, ინტერნეტი, ჯეოსელი, მაგთი, ბილაინი, სილქნეტი, webhost, ვებჰოსტი">
+    <link rel="icon" href="../assets/icons/site-icon.png">
+    <link rel="stylesheet" href="../assets/style/default.css">
+    <link rel="stylesheet" href="../assets/style/gk-header.css">
+    <link rel="stylesheet" href="../assets/style/categories.css">
+    <link rel="stylesheet" href="../assets/style/lrn-footer.css">
+    <link rel="stylesheet" href="../assets/style/gakvetilebi.css">
+    <link rel="stylesheet" href="../assets/style/html.css">
+    <link rel="stylesheet" href="../assets/style/reklamebi.css">
+    <link rel="stylesheet" href="../assets/style/html-gakvetilebi.css">
+    <link rel="stylesheet" href="../assets/style/machines.css">
+</head>
+<body>
+    <div class="navigation">
+        <header>
+            <div class="container">
+                <a href="../index.html"><div class="logo"></div><p class="logo-text">&lt;/DEVi • დევი&gt;</p></a>
+                <ul>
+                    <li><a href="../gakvetilebi.html" class="active">გაკვეთილები</a></li>
+                    <li><a href="../video-lessons.html">ვიდეო გაკვეთილები</a></li>
+                    <li><a href="../savarjishoebi.html">სავარჯიშოები</a></li>
+                    <li><a href="../online-editor.html">კოდედიტორი</a></li>
+                </ul>
+                <div class="menu-icon"><img src="../assets/icons/menu-icon.svg" class="icon" onclick="openMenu()"></div>
+                <div class="menu-icon"><img src="../assets/icons/veggie-burger-menu-icon.svg" class="icon" onclick="oMenu()"></div>
+                <div class="menu-icon"><div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div></div>
+            </div>
+        </header>
+        <nav>
+            <div class="container">
+                <div class="menu">
+                    <a href="../gakvetilebi.html" class="activated">HTML</a>
+                    <a href="../css.html">CSS</a>
+                    <div style="font-size:30px;cursor:pointer" onclick="openNav()" class="m-categories"></div>
+                </div>
+                <div class="dark-mode">
+                    <input type="checkbox" class="form-check-input" id="darkSwitch" title="მუქი თემა">
+                    <div class="dark-mode-icon"></div>
+                </div>
+            </div>
+        </nav>
+        <div id="myMenU" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+            <div class="overlay-content">
+                <div class="container">
+                    <a href="../index.html">მთავარი</a>
+                    <a href="../gakvetilebi.html" style="color: #f27e10;">გაკვეთილები</a>
+                    <a href="../video-lessons.html">ვიდეო გაკვეთილები</a>
+                    <a href="../savarjishoebi.html">სავარჯიშოები</a>
+                    <a href="../online-editor.html">კოდედიტორი</a>
+                </div>
+            </div>
+          </div>
+          <div id="myCateg" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="cMenu()">&times;</a>
+            <div class="overlay-content">
+                <div class="container">
+                    <p>კატეგორიები</p>
+                    <a href="../gakvetilebi.html" style="color: #f27e10;">HTML</a>
+                    <a href="../css.html">CSS</a>
+                </div>
+            </div>
+          </div>
+        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="მოიძიე კატეგორია..." title="მოიძიე კატეგორია">
+                    <ul id="myUL">
+                        <li><a href="../gakvetilebi.html">შესავალი</a></li>
+                        <br><li><a href="intro.html">გაცნობა</a></li>
+                        <br><li><a href="code-editors.html">კოდედიტორები</a></li>
+                        <br><li><a href="basics.html">საწყისები</a></li>
+                        <br><li><a href="elements.html">ელემენტები</a></li>
+                        <br><li><a href="attributes.html">ატრიბუტები</a></li>
+                        <br><li><a href="headings.html">Headings</a></li>
+                        <br><li><a href="paragraphs.html">პარაგრაფები</a></li>
+                        <br><li><a href="styles-html.html">სტილები</a></li>
+                        <br><li><a href="formatting.html">ფორმატირება</a></li>
+                        <br><li><a href="citation.html">ციტატები</a></li>
+                        <br><li><a href="comments.html">კომენტარები</a></li>
+                        <br><li class="on"><a href="colors.html">ფერები</a></li>
+                        <br><li><a href="css-in-html.html">CSS HTML-ში</a></li>
+                        <br><li><a href="links.html">ლინკები</a></li>
+                        <br><li><a href="photos.html">ფოტოები</a></li>
+                        <br><li><a href="tables.html">ცხრილები</a></li>
+                        <br><li><a href="lists.html">სიები</a></li>
+                        <br><li><a href="clases-and-ids.html">კლასები და ID</a></li>
+                        <br><li><a href="iframes.html">ჩაშენებები</a></li>
+                        <br><li><a href="javascript-in-html.html">JavaScript</a></li>
+                        <br><li><a href="file-paths.html">ფაილების ლოკაციები</a></li>
+                        <br><li><a href="head.html">თავი</a></li>
+                        <br><li><a href="layout.html">წყობა</a></li>
+                        <br><li><a href="responsive-html.html">რესფონსივი</a></li>
+                        <br><li><a href="computercode.html">Computercode</a></li>
+                        <br><li><a href="semantics.html">Semantics</a></li>
+                        <br><li><a href="code-style-guide.html">კოდის ხელოვნება</a></li>
+                        <br><li><a href="symbols.html">სიმბოლოები</a></li> <!--  აერთიანებს Entities, სიმბოლოებს და ემოჯებს -->
+                        <br><li><a href="http.html">ბმულები</a></li>
+                        <br><li><a href="charset.html">Charset</a></li>
+                        <br><li><a href="forms.html">ფორმები</a></li>
+                        <br><li><a href="graphic-in-html.html">გრაფიკა</a></li>
+                        <br><li><a href="media.html">მედია</a></li>
+                        <br><li><a href="apis.html">APIs</a></li>
+                        <div class="space"></div>
+                    </ul>
+    </div>
+    <div class="freespace"></div>
+    <!--სარეკლამო სივრცე-->
+    <div class="xtkpiq45ulaey">
+        <div class="wxkejt6l0 wxkejt6l0-cover1"><iframe src="https://discord.com/widget?id=869528540234805248&theme=dark" width="260" height="480" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" class="discord"></iframe></div>
+        <div class="wxkejt6l0 wxkejt6l0-cover2"></div>
+    </div>
+    <!--სარეკლამო სივრცის დასასრული-->
+    <div class="container">
+        <div class="main-head">
+            <button class="gobtn prev" onclick="window.history.back()"><img src="../assets/icons/next-perv-btn-icon.svg"></button>
+            <h1 class="title">ფერები</h1>
+            <button class="gobtn next" onclick="window.location.href='css-in-html.html'"><img src="../assets/icons/next-perv-btn-icon.svg"></button>
+        </div>
+        <div class="content">
+            <div class="space"></div>
+            <!--Content Starts Here-->
+            <p class="cont-title">ფერთა სახელები</p>
+            <p class="cont-desc">ყველა თანამედროვე ბრაუზერი მხარს უჭერს 140 დასახელების ფერს:</p>
+            <div class="main-content">
+                <div class="color-codes" style="background: #F0F8FF;">
+                    <p>Alice Blue</p>
+                    <a>#F0F8FF</a>
+                </div>
+                <div class="color-codes" style="background: #FAEBD7;">
+                    <p>AntiqueWhite</p>
+                    <a>#FAEBD7</a>
+                </div>
+                <div class="color-codes" style="background: #00FFFF;">
+                    <p>Aqua</p>
+                    <a>#00FFFF</a>
+                </div>
+                <div class="color-codes" style="background: #7FFFD4;">
+                    <p>Aquamarine</p>
+                    <a>#7FFFD4</a>
+                </div>
+                <div class="color-codes" style="background: #F0FFFF;">
+                    <p>Azure</p>
+                    <a>#F0FFFF</a>
+                </div>
+                <div class="color-codes" style="background: #F5F5DC;">
+                    <p>Beige</p>
+                    <a>#F5F5DC</a>
+                </div>
+                <div class="color-codes" style="background: #FFE4C4;">
+                    <p>Bisque</p>
+                    <a>#FFE4C4</a>
+                </div>
+                <div class="color-codes" style="background: #000000; color: white;">
+                    <p>Black</p>
+                    <a>#000000</a>
+                </div>
+                <div class="color-codes" style="background: #FFEBCD;">
+                    <p>BlanchedAlmond</p>
+                    <a>#FFEBCD</a>
+                </div>
+                <div class="color-codes" style="background: #0000FF; color: white;">
+                    <p>Blue</p>
+                    <a>#0000FF</a>
+                </div>
+                <div class="color-codes" style="background: #8A2BE2;">
+                    <p>BlueViolet</p>
+                    <a>#8A2BE2</a>
+                </div>
+                <div class="color-codes" style="background: #A52A2A;">
+                    <p>Brown</p>
+                    <a>#A52A2A</a>
+                </div>
+                <div class="color-codes" style="background: #DEB887;">
+                    <p>BurlyWood</p>
+                    <a>#DEB887</a>
+                </div>
+                <div class="color-codes" style="background: #5F9EA0;">
+                    <p>CadetBlue</p>
+                    <a>#5F9EA0</a>
+                </div>
+                <div class="color-codes" style="background: #7FFF00;">
+                    <p>Chartreuse</p>
+                    <a>#7FFF00</a>
+                </div>
+                <div class="color-codes" style="background: #D2691E;">
+                    <p>Chocolate</p>
+                    <a>#D2691E</a>
+                </div>
+                <div class="color-codes" style="background: #FF7F50;">
+                    <p>Coral</p>
+                    <a>#FF7F50</a>
+                </div>
+                <div class="color-codes" style="background: #6495ED;">
+                    <p>CornflowerBlue</p>
+                    <a>#6495ED</a>
+                </div>
+                <div class="color-codes" style="background: #FFF8DC;">
+                    <p>Cornsilk</p>
+                    <a>#FFF8DC</a>
+                </div>
+                <div class="color-codes" style="background: #DC143C;">
+                    <p>Crimson</p>
+                    <a>#DC143C</a>
+                </div>
+                <div class="color-codes" style="background: #00FFFF;">
+                    <p>Cyan</p>
+                    <a>#00FFFF</a>
+                </div>
+                <div class="color-codes" style="background: #00008B; color: white;">
+                    <p>DarkBlue</p>
+                    <a>#00008B</a>
+                </div>
+                <div class="color-codes" style="background: #008B8B;">
+                    <p>DarkCyan</p>
+                    <a>#008B8B</a>
+                </div>
+                <div class="color-codes" style="background: #B8860B;">
+                    <p>DarkGoldenRod</p>
+                    <a>#B8860B</a>
+                </div>
+                <div class="color-codes" style="background: #A9A9A9;">
+                    <p>DarkGray</p>
+                    <a>#A9A9A9</a>
+                </div>
+                <div class="color-codes" style="background: #A9A9A9;">
+                    <p>DarkGrey</p>
+                    <a>#A9A9A9</a>
+                </div>
+                <div class="color-codes" style="background: #006400;">
+                    <p>DarkGreen</p>
+                    <a>#006400</a>
+                </div>
+                <div class="color-codes" style="background: #BDB76B;">
+                    <p>DarkKhaki</p>
+                    <a>#BDB76B</a>
+                </div>
+                <div class="color-codes" style="background: #8B008B;">
+                    <p>DarkMagenta</p>
+                    <a>#8B008B</a>
+                </div>
+                <div class="color-codes" style="background: #556B2F;">
+                    <p>DarkOliveGreen</p>
+                    <a>#556B2F</a>
+                </div>
+                <div class="color-codes" style="background: #FF8C00;">
+                    <p>DarkOrange</p>
+                    <a>#FF8C00</a>
+                </div>
+                <div class="color-codes" style="background: #9932CC;">
+                    <p>DarkOrchid</p>
+                    <a>#9932CC</a>
+                </div>
+                <div class="color-codes" style="background: #8B0000;">
+                    <p>DarkRed</p>
+                    <a>#8B0000</a>
+                </div>
+                <div class="color-codes" style="background: #E9967A;">
+                    <p>DarkSalmon</p>
+                    <a>#E9967A</a>
+                </div>
+                <div class="color-codes" style="background: #8FBC8F;">
+                    <p>DarkSeaGreen</p>
+                    <a>#8FBC8F</a>
+                </div>
+                <div class="color-codes" style="background: #483D8B;">
+                    <p>DarkSlateBlue</p>
+                    <a>#483D8B</a>
+                </div>
+                <div class="color-codes" style="background: #2F4F4F;">
+                    <p>DarkSlateGray</p>
+                    <a>#2F4F4F</a>
+                </div>
+                <div class="color-codes" style="background: #2F4F4F;">
+                    <p>DarkSlateGrey</p>
+                    <a>#2F4F4F</a>
+                </div>
+                <div class="color-codes" style="background: #00CED1;">
+                    <p>DarkTurquoise</p>
+                    <a>#00CED1</a>
+                </div>
+                <div class="color-codes" style="background: #9400D3;">
+                    <p>DarkViolet</p>
+                    <a>#9400D3</a>
+                </div>
+                <div class="color-codes" style="background: #FF1493;">
+                    <p>DeepPink</p>
+                    <a>#FF1493</a>
+                </div>
+                <div class="color-codes" style="background: #00BFFF;">
+                    <p>DeepSkyBlue</p>
+                    <a>#00BFFF</a>
+                </div>
+                <div class="color-codes" style="background: #696969;">
+                    <p>DimGray</p>
+                    <a>#696969</a>
+                </div>
+                <div class="color-codes" style="background: #696969;">
+                    <p>DimGrey</p>
+                    <a>#696969</a>
+                </div>
+                <div class="color-codes" style="background: #1E90FF;">
+                    <p>DodgerBlue</p>
+                    <a>#1E90FF</a>
+                </div>
+                <div class="color-codes" style="background: #B22222;">
+                    <p>FireBrick</p>
+                    <a>#B22222</a>
+                </div>
+                <div class="color-codes" style="background: #FFFAF0;">
+                    <p>FloralWhite</p>
+                    <a>#FFFAF0</a>
+                </div>
+                <div class="color-codes" style="background: #228B22;">
+                    <p>ForestGreen</p>
+                    <a>#228B22</a>
+                </div>
+                <div class="color-codes" style="background: #FF00FF;">
+                    <p>Fuchsia</p>
+                    <a>#FF00FF</a>
+                </div>
+                <div class="color-codes" style="background: #DCDCDC;">
+                    <p>Gainsboro</p>
+                    <a>#DCDCDC</a>
+                </div>
+                <div class="color-codes" style="background: #F8F8FF;">
+                    <p>GhostWhite</p>
+                    <a>#F8F8FF</a>
+                </div>
+                <div class="color-codes" style="background: #FFD700;">
+                    <p>Gold</p>
+                    <a>#FFD700</a>
+                </div>
+                <div class="color-codes" style="background: #DAA520;">
+                    <p>GoldenRod</p>
+                    <a>#DAA520</a>
+                </div>
+                <div class="color-codes" style="background: #808080;">
+                    <p>Gray</p>
+                    <a>#808080</a>
+                </div>
+                <div class="color-codes" style="background: #808080;">
+                    <p>Grey</p>
+                    <a>#808080</a>
+                </div>
+                <div class="color-codes" style="background: #008000;">
+                    <p>Green</p>
+                    <a>#008000</a>
+                </div>
+                <div class="color-codes" style="background: #ADFF2F;">
+                    <p>GreenYellow</p>
+                    <a>#ADFF2F</a>
+                </div>
+                <div class="color-codes" style="background: #F0FFF0;">
+                    <p>HoneyDew</p>
+                    <a>#F0FFF0</a>
+                </div>
+                <div class="color-codes" style="background: #FF69B4;">
+                    <p>HotPink</p>
+                    <a>#FF69B4</a>
+                </div>
+                <div class="color-codes" style="background: #CD5C5C;">
+                    <p>IndianRed</p>
+                    <a>#CD5C5C</a>
+                </div>
+                <div class="color-codes" style="background: #4B0082;">
+                    <p>Indigo</p>
+                    <a>#4B0082</a>
+                </div>
+                <div class="color-codes" style="background: #FFFFF0;">
+                    <p>Ivory</p>
+                    <a>#FFFFF0</a>
+                </div>
+                <div class="color-codes" style="background: #F0E68C;">
+                    <p>Khaki</p>
+                    <a>#F0E68C</a>
+                </div>
+                <div class="color-codes" style="background: #E6E6FA;">
+                    <p>Lavender</p>
+                    <a>#E6E6FA</a>
+                </div>
+                <div class="color-codes" style="background: #FFF0F5;">
+                    <p>LavenderBlush</p>
+                    <a>#FFF0F5</a>
+                </div>
+                <div class="color-codes" style="background: #7CFC00;">
+                    <p>LawnGreen</p>
+                    <a>#7CFC00</a>
+                </div>
+                
+            </div>
+            <!-- Content ends here -->
+            <footer>
+                <div class="ft-menu">
+                    <a href="../about.html">ჩვენს შესახებ</a>
+                    <a href="../privacy-policy.html">წესდება და პოლიტიკა</a>
+                    <a href="../reklama.html">რეკლამის განთავსება</a>
+                </div>
+                <div class="rights">
+                    <a>2021 © ყველა უფლება დაცულია</a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="../assets/script/darkmode.js"></script>
+    <script src="../assets/script/menu.js"></script>
+    <script src="../assets/script/categories.js"></script>
+</body>
+</html>
