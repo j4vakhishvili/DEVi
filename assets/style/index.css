@@ -231,7 +231,7 @@ h1{
 
 [data-theme="dark"] .btn:hover{
     filter: invert(0);
-    background: #89bb37;
+    background: #69981c;
     transition: 0.3s;
 }
 
