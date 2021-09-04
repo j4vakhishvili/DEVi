@@ -377,6 +377,11 @@ a.cont-desc{
     width: 1450px;
 }
 
+.cssxhtmltip{
+    width: 90%;
+    line-height: 26px;
+}
+
 @media only screen and (max-width: 1830px){
     .start-learning, .intro, .ce-code-editors{
         width: 1200px;
@@ -480,6 +485,9 @@ a.cont-desc{
     .colorcodes, .cont-desc, .main-content{
         width: 890px;
     }
+    .cssxhtmltipdiv{
+        height: 160px;
+    }
 }
 
 @media only screen and (max-width: 1250px){
@@ -526,6 +534,9 @@ a.cont-desc{
     }
     .colorcodes, .cont-desc, .main-content{
         width: 690px;
+    }
+    .cssxhtmltipdiv{
+        height: 190px;
     }
 }
 
@@ -645,4 +656,11 @@ a.cont-desc{
     .color-codes a {
         font-size: 12px; 
     }   
+    .cssxhtmltip{
+        width: 90%;
+        line-height: normal;
+    }
+    .cssxhtmltipdiv{
+        height: 180px;
+    }
 }
