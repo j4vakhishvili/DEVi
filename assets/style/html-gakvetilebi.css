@@ -352,7 +352,7 @@ a.cont-desc{
 }
 
 .color-codes{
-    width: 235px;
+    width: 284px;
     height: 110px;
     margin-left: 2px;
     margin-bottom: 5px;
@@ -363,7 +363,7 @@ a.cont-desc{
 .color-codes p{
     margin: 0;
     font-family: 'Main';
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 30px;
 }
 
@@ -634,4 +634,15 @@ a.cont-desc{
     .colorcodes, .cont-desc, .main-content{
         width: 260px;
     }
+    .color-codes {
+        width: 126px;
+        height: 82px;
+    }
+    .color-codes p {
+        font-size: 15px;
+        padding-top: 24px;
+    } 
+    .color-codes a {
+        font-size: 12px; 
+    }   
 }
