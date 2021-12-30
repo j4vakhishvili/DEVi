@@ -294,7 +294,9 @@ h1{
         margin-top: 85px;
     }
     .btn{
-        height: 98px;
+        height: 104px;
+        width: 615px;
+        margin-top: 20px;
     }
     .btn p{
         padding: 25px 0px;
