@@ -267,8 +267,9 @@ h1{
     }
     .socialbtn {
         width: 100px;
-        height: 70px;
-        margin-top: 8px;
+        height: 78px;
+        margin-top: 15px;
+        border-radius: 12px;
     }
     .logo {
         width: 100px;
